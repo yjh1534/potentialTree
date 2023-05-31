@@ -25,12 +25,6 @@
             width: 1320px;
             background: white;
         }
-
-        /* .brushed {
-            stroke-width: 1;
-            stroke: gray;
-            r: 5;
-        } */
     </style>
 </head>
 
@@ -62,6 +56,14 @@
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="main-task" value="filtering" id="filtering">
                     <label class="form-check-label" for="filtering">filtering</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="main-task" value="subtree" id="subtree">
+                    <label class="form-check-label" for="subtree">subtree</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="main-task" value="pruning" id="pruning">
+                    <label class="form-check-label" for="pruning">pruning</label>
                 </div>
             </div>
         </div>
@@ -96,6 +98,17 @@
                 </div>
             </div>
         </div>
+        <table class="table table-striped text-center">
+            <thead>
+                <tr>
+                    <th>constraint</th>
+                    <th>potential / parent</th>
+                </tr>
+            </thead>
+            <tbody id="pc-table">
+
+            </tbody>
+        </table>
     </main>
 
     <script>
@@ -125,13 +138,17 @@
                 children: []
             };
 
-            // Recursively convert each node
             function convertNode(nodeId, parentNode) {
                 const nodeData = data[nodeId];
 
                 const newNode = {
                     name: nodeId,
-                    children: []
+                    children: [],
+                    constraint: nodeData.constraint,
+                    const_constraint: nodeData.const_constraint,
+                    both_constraint: nodeData.both_constraint,
+                    large_constraint: nodeData.large_constraint,
+                    potential: nodeData.potential,
                 };
 
                 if (nodeData.children && nodeData.children.length > 0) {
@@ -143,23 +160,21 @@
                 parentNode.children.push(newNode);
             }
 
-            // Convert the root node
             convertNode(0, rootNode);
 
-            return rootNode;
+            return rootNode.children[0];
         }
 
-        jsonData = d3.json('nodesData.json').then(data=>{
-            console.log(data)
+        jsonData = d3.json('https://raw.githubusercontent.com/yjh1534/InfoVisProject/main/nodesData.json').then(data=>{
             treeData = jsonToTreeData(data);
+            pcTree = new PathconditionTree(treeData, "#pcTree", "#sc-tooltip", "#reset-tree", "#pc-table");
         })
 
         d3.selectAll("input[type=radio][name=main-task]").on("change", changeMaintask);
         d3.selectAll("input[type=range][id=filterBy]").on("change", filterNodes);
         d3.selectAll("#slider").on("change", filterNodes);
 
-        // pcTree = new PathconditionTree(treeData, "#pcTree", "#sc-tooltip", "#reset-tree");
-        // updateTreedata();
+
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

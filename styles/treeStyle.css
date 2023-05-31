@@ -1,7 +1,6 @@
 circle.node {
     fill: #fff;
-    stroke: steelblue;
-    stroke-width: 4px;
+    stroke-width: 8px;
     z-index:0;
 }
 
