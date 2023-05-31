@@ -138,7 +138,7 @@ class PathconditionTree {
     if (d.children) {
       d._children = d.children;
       d._children.forEach(this.collapseNode);
-      if(d.depth > 11)
+      //if(d.depth > 11)
         d.children = null;
     }
   }
