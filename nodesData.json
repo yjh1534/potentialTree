@@ -9,7 +9,9 @@
             11
         ],
         "potential": 2864,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1": {
         "constraint": "(Eq false (Slt 0 (ReadLSB w32 0 n_args)))",
@@ -21,7 +23,9 @@
             152
         ],
         "potential": 2011,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2": {
         "constraint": "(Ult (ReadLSB w32 0 n_args_1) 3)",
@@ -33,7 +37,9 @@
             121
         ],
         "potential": 1411,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3": {
         "constraint": "(Eq false (Slt 0 (ReadLSB w32 0 n_args_1)))",
@@ -131,7 +137,9 @@
             44
         ],
         "potential": 2747,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "12": {
         "constraint": "(Ult (ReadLSB w32 0 n_args_1) 3)",
@@ -143,7 +151,9 @@
             140
         ],
         "potential": 2032,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "13": {
         "constraint": "(Slt 0 (ReadLSB w32 0 n_args_1))",
@@ -154,7 +164,9 @@
             14
         ],
         "potential": 1484,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "14": {
         "constraint": "(Eq false (Eq 1 (ReadLSB w32 0 n_args_1)))",
@@ -165,7 +177,9 @@
             15
         ],
         "potential": 1484,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "15": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 A-data-stat) 2147483647)))",
@@ -176,7 +190,9 @@
             16
         ],
         "potential": 1484,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "16": {
         "constraint": "(Ult (ReadLSB w64 56 A-data-stat) 65536)",
@@ -187,7 +203,9 @@
             17
         ],
         "potential": 1484,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "17": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 stdin-stat) 2147483647)))",
@@ -198,7 +216,9 @@
             18
         ],
         "potential": 1484,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "18": {
         "constraint": "(Ult (ReadLSB w64 56 stdin-stat) 65536)",
@@ -209,7 +229,9 @@
             19
         ],
         "potential": 1484,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "19": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 stdout-stat) 2147483647)))",
@@ -220,7 +242,9 @@
             20
         ],
         "potential": 1484,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "20": {
         "constraint": "(Ult (ReadLSB w64 56 stdout-stat) 65536)",
@@ -231,7 +255,9 @@
             21
         ],
         "potential": 1484,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "21": {
         "constraint": "(Eq 1 (ReadLSB w32 0 model_version))",
@@ -255,7 +281,9 @@
             4210
         ],
         "potential": 1484,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "22": {
         "constraint": "(Eq false (Eq 0 (Read w8 4 arg00)))",
@@ -267,7 +295,9 @@
             1320
         ],
         "potential": 699,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "23": {
         "constraint": "(Eq false (Eq 0 (Read w8 5 arg00)))",
@@ -279,7 +309,9 @@
             2207
         ],
         "potential": 699,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "24": {
         "constraint": "(Eq false (Eq 0 (Read w8 6 arg00)))",
@@ -291,7 +323,9 @@
             36
         ],
         "potential": 699,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "25": {
         "constraint": "(Eq false (Eq 0 (Read w8 7 arg00)))",
@@ -302,7 +336,9 @@
             26
         ],
         "potential": 699,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "26": {
         "constraint": "(Eq false (Eq 0 (Read w8 8 arg00)))",
@@ -313,7 +349,9 @@
             27
         ],
         "potential": 699,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "27": {
         "constraint": "(Eq false (Eq 0 (Read w8 9 arg00)))",
@@ -326,7 +364,9 @@
             677
         ],
         "potential": 699,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "28": {
         "constraint": "(Eq false (Eq 0 (Read w8 0 arg01)))",
@@ -511,7 +551,9 @@
             45
         ],
         "potential": 2436,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "45": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 A-data-stat) 2147483647)))",
@@ -522,7 +564,9 @@
             46
         ],
         "potential": 2436,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "46": {
         "constraint": "(Ult (ReadLSB w64 56 A-data-stat) 65536)",
@@ -533,7 +577,9 @@
             47
         ],
         "potential": 2436,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "47": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 stdin-stat) 2147483647)))",
@@ -544,7 +590,9 @@
             48
         ],
         "potential": 2436,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "48": {
         "constraint": "(Ult (ReadLSB w64 56 stdin-stat) 65536)",
@@ -555,7 +603,9 @@
             49
         ],
         "potential": 2436,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "49": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 stdout-stat) 2147483647)))",
@@ -566,7 +616,9 @@
             50
         ],
         "potential": 2436,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "50": {
         "constraint": "(Ult (ReadLSB w64 56 stdout-stat) 65536)",
@@ -577,7 +629,9 @@
             51
         ],
         "potential": 2436,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "51": {
         "constraint": "(Eq 1 (ReadLSB w32 0 model_version))",
@@ -608,7 +662,9 @@
             5285
         ],
         "potential": 2436,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "52": {
         "constraint": "(Eq false (Eq 0 (Read w8 4 arg00)))",
@@ -624,7 +680,9 @@
             5062
         ],
         "potential": 860,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "53": {
         "constraint": "(Eq false (Eq 0 (Read w8 5 arg00)))",
@@ -638,7 +696,9 @@
             2670
         ],
         "potential": 828,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "54": {
         "constraint": "(Eq false (Eq 0 (Read w8 6 arg00)))",
@@ -650,7 +710,9 @@
             1335
         ],
         "potential": 735,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "55": {
         "constraint": "(Eq false (Eq 0 (Read w8 7 arg00)))",
@@ -661,7 +723,9 @@
             56
         ],
         "potential": 734,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "56": {
         "constraint": "(Eq false (Eq 0 (Read w8 8 arg00)))",
@@ -673,7 +737,9 @@
             3985
         ],
         "potential": 734,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "57": {
         "constraint": "(Eq false (Eq 0 (Read w8 9 arg00)))",
@@ -687,7 +753,9 @@
             2454
         ],
         "potential": 733,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "58": {
         "constraint": "(Eq false (Eq 0 (Read w8 0 arg01)))",
@@ -698,7 +766,9 @@
             59
         ],
         "potential": 386,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "59": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -709,7 +779,9 @@
             60
         ],
         "potential": 386,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "60": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -720,7 +792,9 @@
             61
         ],
         "potential": 386,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "61": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -731,7 +805,9 @@
             62
         ],
         "potential": 386,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "62": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -745,7 +821,9 @@
             3843
         ],
         "potential": 386,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "63": {
         "constraint": "(Eq 98 (Read w8 2 arg00))",
@@ -766,7 +844,9 @@
             1757
         ],
         "potential": 666,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "65": {
         "constraint": "(Eq false (Eq 0 (Read w8 0 arg01)))",
@@ -777,7 +857,9 @@
             66
         ],
         "potential": 426,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "66": {
         "constraint": "(Eq 0 (Read w8 1 arg01))",
@@ -788,7 +870,9 @@
             67
         ],
         "potential": 426,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "67": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -799,7 +883,9 @@
             68
         ],
         "potential": 426,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "68": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -811,7 +897,9 @@
             1750
         ],
         "potential": 426,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "69": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -853,7 +941,9 @@
             2231
         ],
         "potential": 1291,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "72": {
         "constraint": "(Eq false (Eq 0 (Read w8 2 arg00)))",
@@ -865,7 +955,9 @@
             439
         ],
         "potential": 1275,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "73": {
         "constraint": "(Eq false (Eq 0 (Read w8 3 arg00)))",
@@ -878,7 +970,9 @@
             1096
         ],
         "potential": 1275,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "74": {
         "constraint": "(Eq false (Eq 0 (Read w8 4 arg00)))",
@@ -890,7 +984,9 @@
             830
         ],
         "potential": 1269,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "75": {
         "constraint": "(Eq false (Eq 0 (Read w8 5 arg00)))",
@@ -1090,7 +1186,9 @@
             4892
         ],
         "potential": 1853,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "92": {
         "constraint": "(Eq false (Eq 0 (Read w8 2 arg00)))",
@@ -1105,7 +1203,9 @@
             3930
         ],
         "potential": 1535,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "93": {
         "constraint": "(Eq false (Eq 0 (Read w8 3 arg00)))",
@@ -1117,7 +1217,9 @@
             3996
         ],
         "potential": 1533,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "94": {
         "constraint": "(Eq false (Eq 0 (Read w8 4 arg00)))",
@@ -1129,7 +1231,9 @@
             3809
         ],
         "potential": 1532,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "95": {
         "constraint": "(Eq false (Eq 0 (Read w8 5 arg00)))",
@@ -1141,7 +1245,9 @@
             102
         ],
         "potential": 1532,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "96": {
         "constraint": "(Eq 0 (Read w8 6 arg00))",
@@ -1219,7 +1325,9 @@
             4071
         ],
         "potential": 1532,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "103": {
         "constraint": "(Eq false (Eq 0 (Read w8 7 arg00)))",
@@ -1234,7 +1342,9 @@
             4683
         ],
         "potential": 1520,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "104": {
         "constraint": "(Eq false (Eq 0 (Read w8 8 arg00)))",
@@ -1247,7 +1357,9 @@
             3098
         ],
         "potential": 1478,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "105": {
         "constraint": "(Eq false (Eq 0 (Read w8 9 arg00)))",
@@ -1330,7 +1442,9 @@
             1697
         ],
         "potential": 639,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "112": {
         "constraint": "(Eq false (Eq 0 (Read w8 0 arg01)))",
@@ -1341,7 +1455,9 @@
             113
         ],
         "potential": 384,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "113": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -1354,7 +1470,9 @@
             1683
         ],
         "potential": 384,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "114": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg02)))",
@@ -1440,7 +1558,9 @@
             122
         ],
         "potential": 1410,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "122": {
         "constraint": "(Eq false (Eq 1 (ReadLSB w32 0 n_args_1)))",
@@ -1451,7 +1571,9 @@
             123
         ],
         "potential": 1410,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "123": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 A-data-stat) 2147483647)))",
@@ -1462,7 +1584,9 @@
             124
         ],
         "potential": 1410,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "124": {
         "constraint": "(Ult (ReadLSB w64 56 A-data-stat) 65536)",
@@ -1473,7 +1597,9 @@
             125
         ],
         "potential": 1410,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "125": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 stdin-stat) 2147483647)))",
@@ -1484,7 +1610,9 @@
             126
         ],
         "potential": 1410,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "126": {
         "constraint": "(Ult (ReadLSB w64 56 stdin-stat) 65536)",
@@ -1495,7 +1623,9 @@
             127
         ],
         "potential": 1410,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "127": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 stdout-stat) 2147483647)))",
@@ -1506,7 +1636,9 @@
             128
         ],
         "potential": 1410,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "128": {
         "constraint": "(Ult (ReadLSB w64 56 stdout-stat) 65536)",
@@ -1517,7 +1649,9 @@
             129
         ],
         "potential": 1410,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "129": {
         "constraint": "(Eq 1 (ReadLSB w32 0 model_version))",
@@ -1532,7 +1666,9 @@
             2435
         ],
         "potential": 1410,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "130": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg00)))",
@@ -1547,7 +1683,9 @@
             2801
         ],
         "potential": 1257,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "131": {
         "constraint": "(Eq 0 (Read w8 0 arg01))",
@@ -1604,7 +1742,9 @@
             2416
         ],
         "potential": 619,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "136": {
         "constraint": "(Eq 0 (Read w8 0 arg01))",
@@ -1615,7 +1755,9 @@
             137
         ],
         "potential": 448,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "137": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -1626,7 +1768,9 @@
             138
         ],
         "potential": 448,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "138": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -1639,7 +1783,9 @@
             2624
         ],
         "potential": 448,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "139": {
         "constraint": "(Eq 102 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -1659,7 +1805,9 @@
             141
         ],
         "potential": 1862,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "141": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 A-data-stat) 2147483647)))",
@@ -1670,7 +1818,9 @@
             142
         ],
         "potential": 1862,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "142": {
         "constraint": "(Ult (ReadLSB w64 56 A-data-stat) 65536)",
@@ -1681,7 +1831,9 @@
             143
         ],
         "potential": 1862,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "143": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 stdin-stat) 2147483647)))",
@@ -1692,7 +1844,9 @@
             144
         ],
         "potential": 1862,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "144": {
         "constraint": "(Ult (ReadLSB w64 56 stdin-stat) 65536)",
@@ -1703,7 +1857,9 @@
             145
         ],
         "potential": 1862,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "145": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 stdout-stat) 2147483647)))",
@@ -1714,7 +1870,9 @@
             146
         ],
         "potential": 1862,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "146": {
         "constraint": "(Ult (ReadLSB w64 56 stdout-stat) 65536)",
@@ -1725,7 +1883,9 @@
             147
         ],
         "potential": 1862,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "147": {
         "constraint": "(Eq 1 (ReadLSB w32 0 model_version))",
@@ -1742,7 +1902,9 @@
             608
         ],
         "potential": 1862,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "148": {
         "constraint": "(Eq 0 (Read w8 3 arg00))",
@@ -1753,7 +1915,9 @@
             149
         ],
         "potential": 393,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "149": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -1764,7 +1928,9 @@
             150
         ],
         "potential": 393,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "150": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -1776,7 +1942,9 @@
             813
         ],
         "potential": 393,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "151": {
         "constraint": "(Eq 97 (Read w8 2 arg00))",
@@ -1796,7 +1964,9 @@
             153
         ],
         "potential": 1755,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "153": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 A-data-stat) 2147483647)))",
@@ -1807,7 +1977,9 @@
             154
         ],
         "potential": 1755,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "154": {
         "constraint": "(Ult (ReadLSB w64 56 A-data-stat) 65536)",
@@ -1818,7 +1990,9 @@
             155
         ],
         "potential": 1755,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "155": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 stdin-stat) 2147483647)))",
@@ -1829,7 +2003,9 @@
             156
         ],
         "potential": 1755,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "156": {
         "constraint": "(Ult (ReadLSB w64 56 stdin-stat) 65536)",
@@ -1840,7 +2016,9 @@
             157
         ],
         "potential": 1755,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "157": {
         "constraint": "(Eq false (Eq 0 (And w64 (ReadLSB w64 8 stdout-stat) 2147483647)))",
@@ -1851,7 +2029,9 @@
             158
         ],
         "potential": 1755,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "158": {
         "constraint": "(Ult (ReadLSB w64 56 stdout-stat) 65536)",
@@ -1862,7 +2042,9 @@
             159
         ],
         "potential": 1755,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "159": {
         "constraint": "(Eq 1 (ReadLSB w32 0 model_version))",
@@ -1879,7 +2061,9 @@
             1230
         ],
         "potential": 1755,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "160": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg00)))",
@@ -1892,7 +2076,9 @@
             2178
         ],
         "potential": 1000,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "161": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -1949,7 +2135,9 @@
             4433
         ],
         "potential": 1099,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "165": {
         "constraint": "(Eq 0 (Read w8 2 arg00))",
@@ -1962,7 +2150,9 @@
             2935
         ],
         "potential": 692,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "166": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -2067,7 +2257,9 @@
             1259
         ],
         "potential": 934,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "176": {
         "constraint": "(Eq 0 (Read w8 1 arg00))",
@@ -2078,7 +2270,9 @@
             177
         ],
         "potential": 889,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "177": {
         "constraint": "(Eq false (Eq 45 (Read w8 0 arg00)))",
@@ -2090,7 +2284,9 @@
             1149
         ],
         "potential": 889,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "178": {
         "constraint": "(Eq 8192 (And w32 (ReadLSB w32 24 stdout-stat) 61440))",
@@ -2234,7 +2430,9 @@
             892
         ],
         "potential": 919,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "191": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg00)))",
@@ -2245,7 +2443,9 @@
             192
         ],
         "potential": 858,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "192": {
         "constraint": "(Eq false (Eq 45 (Read w8 0 arg00)))",
@@ -2257,7 +2457,9 @@
             1248
         ],
         "potential": 858,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "193": {
         "constraint": "(Eq 8192 (And w32 (ReadLSB w32 24 stdout-stat) 61440))",
@@ -2269,7 +2471,9 @@
             495
         ],
         "potential": 810,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "194": {
         "constraint": "(Eq false (Eq 7 (Read w8 0 arg00)))",
@@ -2280,7 +2484,9 @@
             195
         ],
         "potential": 808,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "195": {
         "constraint": "(Eq false (Eq 8 (Read w8 0 arg00)))",
@@ -2291,7 +2497,9 @@
             196
         ],
         "potential": 808,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "196": {
         "constraint": "(Eq false (Eq 9 (Read w8 0 arg00)))",
@@ -2302,7 +2510,9 @@
             197
         ],
         "potential": 808,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "197": {
         "constraint": "(Eq false (Eq 10 (Read w8 0 arg00)))",
@@ -2313,7 +2523,9 @@
             198
         ],
         "potential": 808,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "198": {
         "constraint": "(Eq false (Eq 12 (Read w8 0 arg00)))",
@@ -2324,7 +2536,9 @@
             199
         ],
         "potential": 808,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "199": {
         "constraint": "(Eq false (Eq 13 (Read w8 0 arg00)))",
@@ -2336,7 +2550,9 @@
             3072
         ],
         "potential": 808,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "200": {
         "constraint": "(Eq 2 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (SExt w32 (Read w8 0 arg00)))))) const_arr2) 8194))",
@@ -2380,7 +2596,9 @@
             1128
         ],
         "potential": 1319,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "204": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -2414,7 +2632,9 @@
             1130
         ],
         "potential": 1318,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "207": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -3796,7 +4016,9 @@
             332
         ],
         "potential": 886,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "332": {
         "constraint": "(Eq false (Eq 45 (Read w8 0 arg00)))",
@@ -3808,7 +4030,9 @@
             1138
         ],
         "potential": 886,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "333": {
         "constraint": "(Eq 8192 (And w32 (ReadLSB w32 24 stdout-stat) 61440))",
@@ -5525,7 +5749,9 @@
             1185
         ],
         "potential": 1098,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "490": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -6394,7 +6620,9 @@
             570
         ],
         "potential": 232,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "570": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -6405,7 +6633,9 @@
             571
         ],
         "potential": 232,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "571": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -6416,7 +6646,9 @@
             572
         ],
         "potential": 232,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "572": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -6428,7 +6660,9 @@
             3910
         ],
         "potential": 232,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "573": {
         "constraint": "(Eq 102 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -6540,7 +6774,9 @@
             3977
         ],
         "potential": 365,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "583": {
         "constraint": "(Eq false (Eq 0 (Read w8 4 arg00)))",
@@ -6551,7 +6787,9 @@
             584
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "584": {
         "constraint": "(Eq false (Eq 0 (Read w8 5 arg00)))",
@@ -6562,7 +6800,9 @@
             585
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "585": {
         "constraint": "(Eq false (Eq 0 (Read w8 6 arg00)))",
@@ -6573,7 +6813,9 @@
             586
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "586": {
         "constraint": "(Eq false (Eq 0 (Read w8 7 arg00)))",
@@ -6584,7 +6826,9 @@
             587
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "587": {
         "constraint": "(Eq false (Eq 0 (Read w8 8 arg00)))",
@@ -6595,7 +6839,9 @@
             588
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "588": {
         "constraint": "(Eq false (Eq 0 (Read w8 9 arg00)))",
@@ -6606,7 +6852,9 @@
             589
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "589": {
         "constraint": "(Eq false (Eq 0 (Read w8 0 arg01)))",
@@ -6617,7 +6865,9 @@
             590
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "590": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -6628,7 +6878,9 @@
             591
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "591": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -6639,7 +6891,9 @@
             592
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "592": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -6650,7 +6904,9 @@
             593
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "593": {
         "constraint": "(Eq 61 (Read w8 2 arg00))",
@@ -6661,7 +6917,9 @@
             4263
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "594": {
         "constraint": "(Eq false (Eq 0 (Read w8 3 arg00)))",
@@ -6673,7 +6931,9 @@
             720
         ],
         "potential": 363,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "595": {
         "constraint": "(Eq false (Eq 0 (Read w8 4 arg00)))",
@@ -6825,7 +7085,9 @@
             609
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "609": {
         "constraint": "(Eq false (Eq 0 (Read w8 4 arg00)))",
@@ -6836,7 +7098,9 @@
             610
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "610": {
         "constraint": "(Eq false (Eq 0 (Read w8 5 arg00)))",
@@ -6847,7 +7111,9 @@
             611
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "611": {
         "constraint": "(Eq false (Eq 0 (Read w8 6 arg00)))",
@@ -6858,7 +7124,9 @@
             612
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "612": {
         "constraint": "(Eq false (Eq 0 (Read w8 7 arg00)))",
@@ -6869,7 +7137,9 @@
             613
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "613": {
         "constraint": "(Eq false (Eq 0 (Read w8 8 arg00)))",
@@ -6880,7 +7150,9 @@
             614
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "614": {
         "constraint": "(Eq false (Eq 0 (Read w8 9 arg00)))",
@@ -6891,7 +7163,9 @@
             615
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "615": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -6902,7 +7176,9 @@
             616
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "616": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -6913,7 +7189,9 @@
             617
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "617": {
         "constraint": "(Eq 61 (Read w8 2 arg00))",
@@ -6925,7 +7203,9 @@
             4264
         ],
         "potential": 358,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "618": {
         "constraint": "(Eq false (Eq 8192 (And w32 (ReadLSB w32 24 stdout-stat) 61440)))",
@@ -7251,7 +7531,9 @@
             3185
         ],
         "potential": 828,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "648": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg00)))",
@@ -7267,7 +7549,9 @@
             3665
         ],
         "potential": 823,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "649": {
         "constraint": "(Eq false (Eq 0 (Read w8 2 arg00)))",
@@ -7587,7 +7871,9 @@
             1400
         ],
         "potential": 520,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "678": {
         "constraint": "(Eq false (Eq 0 (Read w8 0 arg02)))",
@@ -9231,7 +9517,9 @@
             831
         ],
         "potential": 1155,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "831": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -9243,7 +9531,9 @@
             884
         ],
         "potential": 1155,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "832": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -9254,7 +9544,9 @@
             833
         ],
         "potential": 1150,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "833": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -9265,7 +9557,9 @@
             834
         ],
         "potential": 1150,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "834": {
         "constraint": "(Eq 70 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -9276,7 +9570,9 @@
             835
         ],
         "potential": 1150,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "835": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -9287,7 +9583,9 @@
             836
         ],
         "potential": 1150,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "836": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg01)))",
@@ -9299,7 +9597,9 @@
             1111
         ],
         "potential": 1150,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "837": {
         "constraint": "(Eq 102 (Extract w8 0 (SExt w32 (Read w8 1 arg01))))",
@@ -11497,7 +11797,9 @@
             2262
         ],
         "potential": 1312,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1038": {
         "constraint": "(Eq 10 (Read w8 0 arg00))",
@@ -12065,7 +12367,9 @@
             4249
         ],
         "potential": 926,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1089": {
         "constraint": "(Eq 10 (Read w8 0 arg00))",
@@ -12134,7 +12438,9 @@
             2261
         ],
         "potential": 1311,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1093": {
         "constraint": "(Eq 123 (Read w8 0 arg00))",
@@ -12272,7 +12578,9 @@
             2901
         ],
         "potential": 914,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1106": {
         "constraint": "(Eq 0 (Read w8 0 arg01))",
@@ -12642,7 +12950,9 @@
             1139
         ],
         "potential": 859,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1139": {
         "constraint": "(Eq false (Eq 7 (Read w8 0 arg00)))",
@@ -12653,7 +12963,9 @@
             1140
         ],
         "potential": 859,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1140": {
         "constraint": "(Eq false (Eq 8 (Read w8 0 arg00)))",
@@ -12664,7 +12976,9 @@
             1141
         ],
         "potential": 859,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1141": {
         "constraint": "(Eq false (Eq 9 (Read w8 0 arg00)))",
@@ -12675,7 +12989,9 @@
             1142
         ],
         "potential": 859,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1142": {
         "constraint": "(Eq false (Eq 10 (Read w8 0 arg00)))",
@@ -12686,7 +13002,9 @@
             1143
         ],
         "potential": 859,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1143": {
         "constraint": "(Eq false (Eq 12 (Read w8 0 arg00)))",
@@ -12697,7 +13015,9 @@
             1144
         ],
         "potential": 859,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1144": {
         "constraint": "(Eq false (Eq 13 (Read w8 0 arg00)))",
@@ -12709,7 +13029,9 @@
             1246
         ],
         "potential": 859,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1145": {
         "constraint": "(Eq false (Eq 2 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (SExt w32 (Read w8 0 arg00)))))) const_arr1) 8194)))",
@@ -12720,7 +13042,9 @@
             1146
         ],
         "potential": 853,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1146": {
         "constraint": "(Eq false (Eq 32 (Read w8 0 arg00)))",
@@ -12733,7 +13057,9 @@
             1719
         ],
         "potential": 853,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1147": {
         "constraint": "(Or (Eq 57 (Read w8 0 arg00)) (Or (Eq 56 (Read w8 0 arg00)) (Or (Eq 55 (Read w8 0 arg00)) (Or (Eq 54 (Read w8 0 arg00)) (Or (Eq 53 (Read w8 0 arg00)) (Or (Eq 52 (Read w8 0 arg00)) (Or (Eq 51 (Read w8 0 arg00)) (Or (Eq 50 (Read w8 0 arg00)) (Or (Eq 49 (Read w8 0 arg00)) (Eq 48 (Read w8 0 arg00)))))))))))",
@@ -12766,7 +13092,9 @@
             1394
         ],
         "potential": 850,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1150": {
         "constraint": "(Eq false (Eq 7 (Read w8 0 arg00)))",
@@ -12777,7 +13105,9 @@
             1151
         ],
         "potential": 839,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1151": {
         "constraint": "(Eq false (Eq 8 (Read w8 0 arg00)))",
@@ -12788,7 +13118,9 @@
             1152
         ],
         "potential": 839,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1152": {
         "constraint": "(Eq false (Eq 9 (Read w8 0 arg00)))",
@@ -12799,7 +13131,9 @@
             1153
         ],
         "potential": 839,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1153": {
         "constraint": "(Eq false (Eq 10 (Read w8 0 arg00)))",
@@ -12810,7 +13144,9 @@
             1154
         ],
         "potential": 839,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1154": {
         "constraint": "(Eq false (Eq 12 (Read w8 0 arg00)))",
@@ -12821,7 +13157,9 @@
             1155
         ],
         "potential": 839,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1155": {
         "constraint": "(Eq false (Eq 13 (Read w8 0 arg00)))",
@@ -12833,7 +13171,9 @@
             1243
         ],
         "potential": 839,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1156": {
         "constraint": "(Eq false (Eq 2 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (SExt w32 (Read w8 0 arg00)))))) const_arr1) 8194)))",
@@ -12844,7 +13184,9 @@
             1157
         ],
         "potential": 827,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1157": {
         "constraint": "(Eq false (Eq 32 (Read w8 0 arg00)))",
@@ -12856,7 +13198,9 @@
             1580
         ],
         "potential": 827,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1158": {
         "constraint": "(Or (Eq 57 (Read w8 0 arg00)) (Or (Eq 56 (Read w8 0 arg00)) (Or (Eq 55 (Read w8 0 arg00)) (Or (Eq 54 (Read w8 0 arg00)) (Or (Eq 53 (Read w8 0 arg00)) (Or (Eq 52 (Read w8 0 arg00)) (Or (Eq 51 (Read w8 0 arg00)) (Or (Eq 50 (Read w8 0 arg00)) (Or (Eq 49 (Read w8 0 arg00)) (Eq 48 (Read w8 0 arg00)))))))))))",
@@ -13084,7 +13428,9 @@
             4615
         ],
         "potential": 1549,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1177": {
         "constraint": "(Eq 124 (Read w8 0 arg00))",
@@ -13177,7 +13523,9 @@
             1192
         ],
         "potential": 1090,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1186": {
         "constraint": "(Eq 35 (Read w8 0 arg00))",
@@ -13232,7 +13580,9 @@
             2222
         ],
         "potential": 1390,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1191": {
         "constraint": "(Eq 61 (Read w8 1 arg00))",
@@ -13632,7 +13982,9 @@
             4950
         ],
         "potential": 1462,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1231": {
         "constraint": "(Eq 58 (Read w8 0 arg00))",
@@ -13824,7 +14176,9 @@
             2698
         ],
         "potential": 851,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1249": {
         "constraint": "(Eq false (Eq 7 (Read w8 0 arg00)))",
@@ -13835,7 +14189,9 @@
             1250
         ],
         "potential": 849,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1250": {
         "constraint": "(Eq false (Eq 8 (Read w8 0 arg00)))",
@@ -13846,7 +14202,9 @@
             1251
         ],
         "potential": 849,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1251": {
         "constraint": "(Eq false (Eq 9 (Read w8 0 arg00)))",
@@ -13857,7 +14215,9 @@
             1252
         ],
         "potential": 849,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1252": {
         "constraint": "(Eq false (Eq 10 (Read w8 0 arg00)))",
@@ -13868,7 +14228,9 @@
             1253
         ],
         "potential": 849,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1253": {
         "constraint": "(Eq false (Eq 12 (Read w8 0 arg00)))",
@@ -13879,7 +14241,9 @@
             1254
         ],
         "potential": 849,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1254": {
         "constraint": "(Eq false (Eq 13 (Read w8 0 arg00)))",
@@ -13891,7 +14255,9 @@
             2946
         ],
         "potential": 849,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1255": {
         "constraint": "(Eq 2 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (SExt w32 (Read w8 0 arg00)))))) const_arr2) 8194))",
@@ -14164,7 +14530,9 @@
             1280
         ],
         "potential": 512,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1280": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -14175,7 +14543,9 @@
             1281
         ],
         "potential": 512,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1281": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -14186,7 +14556,9 @@
             1282
         ],
         "potential": 512,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1282": {
         "constraint": "(Eq 97 (Read w8 2 arg00))",
@@ -14197,7 +14569,9 @@
             1283
         ],
         "potential": 512,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1283": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -14208,7 +14582,9 @@
             1284
         ],
         "potential": 512,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1284": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg01)))",
@@ -14220,7 +14596,9 @@
             1413
         ],
         "potential": 512,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1285": {
         "constraint": "(Eq 102 (Extract w8 0 (SExt w32 (Read w8 1 arg01))))",
@@ -15451,7 +15829,9 @@
             1401
         ],
         "potential": 397,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1401": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -15462,7 +15842,9 @@
             1402
         ],
         "potential": 397,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1402": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -15473,7 +15855,9 @@
             1403
         ],
         "potential": 397,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1403": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -15484,7 +15868,9 @@
             1404
         ],
         "potential": 397,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1404": {
         "constraint": "(Eq 97 (Read w8 2 arg00))",
@@ -15495,7 +15881,9 @@
             1405
         ],
         "potential": 397,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1405": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -15506,7 +15894,9 @@
             1406
         ],
         "potential": 397,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1406": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg01)))",
@@ -15517,7 +15907,9 @@
             1407
         ],
         "potential": 397,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1407": {
         "constraint": "(Eq 87 (Extract w8 0 (SExt w32 (Read w8 1 arg01))))",
@@ -15529,7 +15921,9 @@
             1678
         ],
         "potential": 397,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1408": {
         "constraint": "(Eq 61 (Read w8 0 arg02))",
@@ -15592,7 +15986,9 @@
             1713
         ],
         "potential": 438,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1414": {
         "constraint": "(Eq 61 (Read w8 1 arg02))",
@@ -15605,7 +16001,9 @@
             2263
         ],
         "potential": 401,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1415": {
         "constraint": "(Eq 97 (Read w8 0 arg02))",
@@ -17110,7 +17508,9 @@
             4248
         ],
         "potential": 1099,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1551": {
         "constraint": "(Eq 123 (Read w8 1 arg00))",
@@ -17390,7 +17790,9 @@
             1581
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1581": {
         "constraint": "(Eq false (Eq 124 (Read w8 0 arg00)))",
@@ -17401,7 +17803,9 @@
             1582
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1582": {
         "constraint": "(Eq false (Eq 125 (Read w8 0 arg00)))",
@@ -17412,7 +17816,9 @@
             1583
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1583": {
         "constraint": "(Eq false (Eq 126 (Read w8 0 arg00)))",
@@ -17423,7 +17829,9 @@
             1584
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1584": {
         "constraint": "(Eq false (Eq 64 (Read w8 0 arg00)))",
@@ -17434,7 +17842,9 @@
             1585
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1585": {
         "constraint": "(Eq false (Eq 91 (Read w8 0 arg00)))",
@@ -17445,7 +17855,9 @@
             1586
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1586": {
         "constraint": "(Eq false (Eq 92 (Read w8 0 arg00)))",
@@ -17456,7 +17868,9 @@
             1587
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1587": {
         "constraint": "(Eq false (Eq 93 (Read w8 0 arg00)))",
@@ -17467,7 +17881,9 @@
             1588
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1588": {
         "constraint": "(Eq false (Eq 94 (Read w8 0 arg00)))",
@@ -17478,7 +17894,9 @@
             1589
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1589": {
         "constraint": "(Eq false (Eq 33 (Read w8 0 arg00)))",
@@ -17489,7 +17907,9 @@
             1590
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1590": {
         "constraint": "(Eq false (Eq 34 (Read w8 0 arg00)))",
@@ -17500,7 +17920,9 @@
             1591
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1591": {
         "constraint": "(Eq false (Eq 35 (Read w8 0 arg00)))",
@@ -17511,7 +17933,9 @@
             1592
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1592": {
         "constraint": "(Eq false (Eq 36 (Read w8 0 arg00)))",
@@ -17522,7 +17946,9 @@
             1593
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1593": {
         "constraint": "(Eq false (Eq 37 (Read w8 0 arg00)))",
@@ -17533,7 +17959,9 @@
             1594
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1594": {
         "constraint": "(Eq false (Eq 38 (Read w8 0 arg00)))",
@@ -17544,7 +17972,9 @@
             1595
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1595": {
         "constraint": "(Eq false (Eq 40 (Read w8 0 arg00)))",
@@ -17555,7 +17985,9 @@
             1596
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1596": {
         "constraint": "(Eq false (Eq 41 (Read w8 0 arg00)))",
@@ -17566,7 +17998,9 @@
             1597
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1597": {
         "constraint": "(Eq false (Eq 42 (Read w8 0 arg00)))",
@@ -17577,7 +18011,9 @@
             1598
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1598": {
         "constraint": "(Eq false (Eq 43 (Read w8 0 arg00)))",
@@ -17588,7 +18024,9 @@
             1599
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1599": {
         "constraint": "(Eq false (Eq 44 (Read w8 0 arg00)))",
@@ -17599,7 +18037,9 @@
             1600
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1600": {
         "constraint": "(Eq false (Eq 46 (Read w8 0 arg00)))",
@@ -17610,7 +18050,9 @@
             1601
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1601": {
         "constraint": "(Eq false (Eq 47 (Read w8 0 arg00)))",
@@ -17621,7 +18063,9 @@
             1602
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1602": {
         "constraint": "(Eq false (Eq 48 (Read w8 0 arg00)))",
@@ -17632,7 +18076,9 @@
             1603
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1603": {
         "constraint": "(Eq false (Eq 49 (Read w8 0 arg00)))",
@@ -17643,7 +18089,9 @@
             1604
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1604": {
         "constraint": "(Eq false (Eq 50 (Read w8 0 arg00)))",
@@ -17654,7 +18102,9 @@
             1605
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1605": {
         "constraint": "(Eq false (Eq 51 (Read w8 0 arg00)))",
@@ -17665,7 +18115,9 @@
             1606
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1606": {
         "constraint": "(Eq false (Eq 52 (Read w8 0 arg00)))",
@@ -17676,7 +18128,9 @@
             1607
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1607": {
         "constraint": "(Eq false (Eq 53 (Read w8 0 arg00)))",
@@ -17687,7 +18141,9 @@
             1608
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1608": {
         "constraint": "(Eq false (Eq 54 (Read w8 0 arg00)))",
@@ -17698,7 +18154,9 @@
             1609
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1609": {
         "constraint": "(Eq false (Eq 55 (Read w8 0 arg00)))",
@@ -17709,7 +18167,9 @@
             1610
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1610": {
         "constraint": "(Eq false (Eq 56 (Read w8 0 arg00)))",
@@ -17720,7 +18180,9 @@
             1611
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1611": {
         "constraint": "(Eq false (Eq 57 (Read w8 0 arg00)))",
@@ -17731,7 +18193,9 @@
             1612
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1612": {
         "constraint": "(Eq false (Eq 58 (Read w8 0 arg00)))",
@@ -17742,7 +18206,9 @@
             1613
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1613": {
         "constraint": "(Eq false (Eq 59 (Read w8 0 arg00)))",
@@ -17753,7 +18219,9 @@
             1614
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1614": {
         "constraint": "(Eq false (Eq 60 (Read w8 0 arg00)))",
@@ -17764,7 +18232,9 @@
             1615
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1615": {
         "constraint": "(Eq false (Eq 61 (Read w8 0 arg00)))",
@@ -17775,7 +18245,9 @@
             1616
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1616": {
         "constraint": "(Eq false (Eq 62 (Read w8 0 arg00)))",
@@ -17786,7 +18258,9 @@
             1617
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1617": {
         "constraint": "(Eq false (Eq 63 (Read w8 0 arg00)))",
@@ -17797,7 +18271,9 @@
             1618
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1618": {
         "constraint": "(Or (Eq 90 (Read w8 0 arg00)) (Or (Eq 89 (Read w8 0 arg00)) (Or (Eq 88 (Read w8 0 arg00)) (Or (Eq 87 (Read w8 0 arg00)) (Or (Eq 86 (Read w8 0 arg00)) (Or (Eq 85 (Read w8 0 arg00)) (Or (Eq 84 (Read w8 0 arg00)) (Or (Eq 83 (Read w8 0 arg00)) (Or (Eq 82 (Read w8 0 arg00)) (Or (Eq 81 (Read w8 0 arg00)) (Or (Eq 80 (Read w8 0 arg00)) (Or (Eq 79 (Read w8 0 arg00)) (Or (Eq 78 (Read w8 0 arg00)) (Or (Eq 77 (Read w8 0 arg00)) (Or (Eq 76 (Read w8 0 arg00)) (Or (Eq 75 (Read w8 0 arg00)) (Or (Eq 74 (Read w8 0 arg00)) (Or (Eq 73 (Read w8 0 arg00)) (Or (Eq 72 (Read w8 0 arg00)) (Or (Eq 71 (Read w8 0 arg00)) (Or (Eq 70 (Read w8 0 arg00)) (Or (Eq 69 (Read w8 0 arg00)) (Or (Eq 68 (Read w8 0 arg00)) (Or (Eq 67 (Read w8 0 arg00)) (Or (Eq 66 (Read w8 0 arg00)) (Or (Eq 65 (Read w8 0 arg00)) (Or (Eq 122 (Read w8 0 arg00)) (Or (Eq 121 (Read w8 0 arg00)) (Or (Eq 120 (Read w8 0 arg00)) (Or (Eq 119 (Read w8 0 arg00)) (Or (Eq 118 (Read w8 0 arg00)) (Or (Eq 117 (Read w8 0 arg00)) (Or (Eq 116 (Read w8 0 arg00)) (Or (Eq 115 (Read w8 0 arg00)) (Or (Eq 114 (Read w8 0 arg00)) (Or (Eq 113 (Read w8 0 arg00)) (Or (Eq 112 (Read w8 0 arg00)) (Or (Eq 111 (Read w8 0 arg00)) (Or (Eq 110 (Read w8 0 arg00)) (Or (Eq 109 (Read w8 0 arg00)) (Or (Eq 108 (Read w8 0 arg00)) (Or (Eq 107 (Read w8 0 arg00)) (Or (Eq 106 (Read w8 0 arg00)) (Or (Eq 105 (Read w8 0 arg00)) (Or (Eq 104 (Read w8 0 arg00)) (Or (Eq 103 (Read w8 0 arg00)) (Or (Eq 102 (Read w8 0 arg00)) (Or (Eq 101 (Read w8 0 arg00)) (Or (Eq 100 (Read w8 0 arg00)) (Or (Eq 99 (Read w8 0 arg00)) (Or (Eq 98 (Read w8 0 arg00)) (Eq 97 (Read w8 0 arg00)))))))))))))))))))))))))))))))))))))))))))))))))))))",
@@ -17810,7 +18286,9 @@
             1662
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1619": {
         "constraint": "(Eq 105 (Extract w8 0 (ZExt w32 (Read w8 0 arg00))))",
@@ -17839,7 +18317,9 @@
             1622
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1622": {
         "constraint": "(Eq false (Eq 124 (Read w8 0 arg00)))",
@@ -17850,7 +18330,9 @@
             1623
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1623": {
         "constraint": "(Eq false (Eq 125 (Read w8 0 arg00)))",
@@ -17861,7 +18343,9 @@
             1624
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1624": {
         "constraint": "(Eq false (Eq 126 (Read w8 0 arg00)))",
@@ -17872,7 +18356,9 @@
             1625
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1625": {
         "constraint": "(Eq false (Eq 64 (Read w8 0 arg00)))",
@@ -17883,7 +18369,9 @@
             1626
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1626": {
         "constraint": "(Eq false (Eq 91 (Read w8 0 arg00)))",
@@ -17894,7 +18382,9 @@
             1627
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1627": {
         "constraint": "(Eq false (Eq 92 (Read w8 0 arg00)))",
@@ -17905,7 +18395,9 @@
             1628
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1628": {
         "constraint": "(Eq false (Eq 93 (Read w8 0 arg00)))",
@@ -17916,7 +18408,9 @@
             1629
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1629": {
         "constraint": "(Eq false (Eq 94 (Read w8 0 arg00)))",
@@ -17927,7 +18421,9 @@
             1630
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1630": {
         "constraint": "(Eq false (Eq 33 (Read w8 0 arg00)))",
@@ -17938,7 +18434,9 @@
             1631
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1631": {
         "constraint": "(Eq false (Eq 34 (Read w8 0 arg00)))",
@@ -17949,7 +18447,9 @@
             1632
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1632": {
         "constraint": "(Eq false (Eq 35 (Read w8 0 arg00)))",
@@ -17960,7 +18460,9 @@
             1633
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1633": {
         "constraint": "(Eq false (Eq 36 (Read w8 0 arg00)))",
@@ -17971,7 +18473,9 @@
             1634
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1634": {
         "constraint": "(Eq false (Eq 37 (Read w8 0 arg00)))",
@@ -17982,7 +18486,9 @@
             1635
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1635": {
         "constraint": "(Eq false (Eq 38 (Read w8 0 arg00)))",
@@ -17993,7 +18499,9 @@
             1636
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1636": {
         "constraint": "(Eq false (Eq 40 (Read w8 0 arg00)))",
@@ -18004,7 +18512,9 @@
             1637
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1637": {
         "constraint": "(Eq false (Eq 41 (Read w8 0 arg00)))",
@@ -18015,7 +18525,9 @@
             1638
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1638": {
         "constraint": "(Eq false (Eq 42 (Read w8 0 arg00)))",
@@ -18026,7 +18538,9 @@
             1639
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1639": {
         "constraint": "(Eq false (Eq 43 (Read w8 0 arg00)))",
@@ -18037,7 +18551,9 @@
             1640
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1640": {
         "constraint": "(Eq false (Eq 44 (Read w8 0 arg00)))",
@@ -18048,7 +18564,9 @@
             1641
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1641": {
         "constraint": "(Eq false (Eq 46 (Read w8 0 arg00)))",
@@ -18059,7 +18577,9 @@
             1642
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1642": {
         "constraint": "(Eq false (Eq 47 (Read w8 0 arg00)))",
@@ -18070,7 +18590,9 @@
             1643
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1643": {
         "constraint": "(Eq false (Eq 48 (Read w8 0 arg00)))",
@@ -18081,7 +18603,9 @@
             1644
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1644": {
         "constraint": "(Eq false (Eq 49 (Read w8 0 arg00)))",
@@ -18092,7 +18616,9 @@
             1645
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1645": {
         "constraint": "(Eq false (Eq 50 (Read w8 0 arg00)))",
@@ -18103,7 +18629,9 @@
             1646
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1646": {
         "constraint": "(Eq false (Eq 51 (Read w8 0 arg00)))",
@@ -18114,7 +18642,9 @@
             1647
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1647": {
         "constraint": "(Eq false (Eq 52 (Read w8 0 arg00)))",
@@ -18125,7 +18655,9 @@
             1648
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1648": {
         "constraint": "(Eq false (Eq 53 (Read w8 0 arg00)))",
@@ -18136,7 +18668,9 @@
             1649
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1649": {
         "constraint": "(Eq false (Eq 54 (Read w8 0 arg00)))",
@@ -18147,7 +18681,9 @@
             1650
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1650": {
         "constraint": "(Eq false (Eq 55 (Read w8 0 arg00)))",
@@ -18158,7 +18694,9 @@
             1651
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1651": {
         "constraint": "(Eq false (Eq 56 (Read w8 0 arg00)))",
@@ -18169,7 +18707,9 @@
             1652
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1652": {
         "constraint": "(Eq false (Eq 57 (Read w8 0 arg00)))",
@@ -18180,7 +18720,9 @@
             1653
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1653": {
         "constraint": "(Eq false (Eq 58 (Read w8 0 arg00)))",
@@ -18191,7 +18733,9 @@
             1654
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1654": {
         "constraint": "(Eq false (Eq 59 (Read w8 0 arg00)))",
@@ -18202,7 +18746,9 @@
             1655
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1655": {
         "constraint": "(Eq false (Eq 60 (Read w8 0 arg00)))",
@@ -18213,7 +18759,9 @@
             1656
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1656": {
         "constraint": "(Eq false (Eq 61 (Read w8 0 arg00)))",
@@ -18224,7 +18772,9 @@
             1657
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1657": {
         "constraint": "(Eq false (Eq 62 (Read w8 0 arg00)))",
@@ -18235,7 +18785,9 @@
             1658
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1658": {
         "constraint": "(Eq false (Eq 63 (Read w8 0 arg00)))",
@@ -18246,7 +18798,9 @@
             1659
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1659": {
         "constraint": "(Or (Eq 90 (Read w8 0 arg00)) (Or (Eq 89 (Read w8 0 arg00)) (Or (Eq 88 (Read w8 0 arg00)) (Or (Eq 87 (Read w8 0 arg00)) (Or (Eq 86 (Read w8 0 arg00)) (Or (Eq 85 (Read w8 0 arg00)) (Or (Eq 84 (Read w8 0 arg00)) (Or (Eq 83 (Read w8 0 arg00)) (Or (Eq 82 (Read w8 0 arg00)) (Or (Eq 81 (Read w8 0 arg00)) (Or (Eq 80 (Read w8 0 arg00)) (Or (Eq 79 (Read w8 0 arg00)) (Or (Eq 78 (Read w8 0 arg00)) (Or (Eq 77 (Read w8 0 arg00)) (Or (Eq 76 (Read w8 0 arg00)) (Or (Eq 75 (Read w8 0 arg00)) (Or (Eq 74 (Read w8 0 arg00)) (Or (Eq 73 (Read w8 0 arg00)) (Or (Eq 72 (Read w8 0 arg00)) (Or (Eq 71 (Read w8 0 arg00)) (Or (Eq 70 (Read w8 0 arg00)) (Or (Eq 69 (Read w8 0 arg00)) (Or (Eq 68 (Read w8 0 arg00)) (Or (Eq 67 (Read w8 0 arg00)) (Or (Eq 66 (Read w8 0 arg00)) (Or (Eq 65 (Read w8 0 arg00)) (Or (Eq 122 (Read w8 0 arg00)) (Or (Eq 121 (Read w8 0 arg00)) (Or (Eq 120 (Read w8 0 arg00)) (Or (Eq 119 (Read w8 0 arg00)) (Or (Eq 118 (Read w8 0 arg00)) (Or (Eq 117 (Read w8 0 arg00)) (Or (Eq 116 (Read w8 0 arg00)) (Or (Eq 115 (Read w8 0 arg00)) (Or (Eq 114 (Read w8 0 arg00)) (Or (Eq 113 (Read w8 0 arg00)) (Or (Eq 112 (Read w8 0 arg00)) (Or (Eq 111 (Read w8 0 arg00)) (Or (Eq 110 (Read w8 0 arg00)) (Or (Eq 109 (Read w8 0 arg00)) (Or (Eq 108 (Read w8 0 arg00)) (Or (Eq 107 (Read w8 0 arg00)) (Or (Eq 106 (Read w8 0 arg00)) (Or (Eq 105 (Read w8 0 arg00)) (Or (Eq 104 (Read w8 0 arg00)) (Or (Eq 103 (Read w8 0 arg00)) (Or (Eq 102 (Read w8 0 arg00)) (Or (Eq 101 (Read w8 0 arg00)) (Or (Eq 100 (Read w8 0 arg00)) (Or (Eq 99 (Read w8 0 arg00)) (Or (Eq 98 (Read w8 0 arg00)) (Eq 97 (Read w8 0 arg00)))))))))))))))))))))))))))))))))))))))))))))))))))))",
@@ -18259,7 +18813,9 @@
             1722
         ],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1660": {
         "constraint": "(Eq 105 (Extract w8 0 (ZExt w32 (Read w8 0 arg00))))",
@@ -18286,7 +18842,9 @@
         "large_constraint": "( Eq false ( Eq 105 ( Extract w8 0 ( ZExt w32 ( Read w8 0 arg00 ) ) ) ) )",
         "children": [],
         "potential": 788,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1663": {
         "constraint": "(Eq 124 (Read w8 0 arg00))",
@@ -18541,7 +19099,9 @@
             1689
         ],
         "potential": 554,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1689": {
         "constraint": "(Or (Eq 13 (Read w8 1 arg00)) (Or (Eq 12 (Read w8 1 arg00)) (Or (Eq 9 (Read w8 1 arg00)) (Or (Eq 8 (Read w8 1 arg00)) (Eq 7 (Read w8 1 arg00))))))",
@@ -18552,7 +19112,9 @@
             1690
         ],
         "potential": 554,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1690": {
         "constraint": "(Eq false (Eq 35 (Read w8 1 arg00)))",
@@ -18563,7 +19125,9 @@
             1691
         ],
         "potential": 554,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1691": {
         "constraint": "(Eq false (Eq 10 (Read w8 1 arg00)))",
@@ -18575,7 +19139,9 @@
             2193
         ],
         "potential": 554,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "1692": {
         "constraint": "(Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (ZExt w32 (Read w8 1 arg00)))))) const_arr1) 8192))",
@@ -19137,7 +19703,9 @@
             1752
         ],
         "potential": 617,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1745": {
         "constraint": "(Eq false (Eq 0 (Read w8 0 arg01)))",
@@ -19221,7 +19789,9 @@
             1753
         ],
         "potential": 606,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1753": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -19232,7 +19802,9 @@
             1754
         ],
         "potential": 606,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1754": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -19244,7 +19816,9 @@
             2225
         ],
         "potential": 606,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1755": {
         "constraint": "(Eq 98 (Read w8 2 arg00))",
@@ -19275,7 +19849,9 @@
             1758
         ],
         "potential": 628,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1758": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -19286,7 +19862,9 @@
             1759
         ],
         "potential": 628,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1759": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -19299,7 +19877,9 @@
             4835
         ],
         "potential": 628,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1760": {
         "constraint": "(Eq 98 (Read w8 2 arg00))",
@@ -20696,7 +21276,9 @@
             1891
         ],
         "potential": 476,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1891": {
         "constraint": "(Eq false (Eq 0 (Read w8 6 arg00)))",
@@ -20707,7 +21289,9 @@
             1892
         ],
         "potential": 476,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1892": {
         "constraint": "(Eq false (Eq 0 (Read w8 7 arg00)))",
@@ -20718,7 +21302,9 @@
             1893
         ],
         "potential": 476,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1893": {
         "constraint": "(Eq false (Eq 0 (Read w8 8 arg00)))",
@@ -20729,7 +21315,9 @@
             1894
         ],
         "potential": 476,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1894": {
         "constraint": "(Eq false (Eq 0 (Read w8 9 arg00)))",
@@ -20741,7 +21329,9 @@
             2982
         ],
         "potential": 476,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1895": {
         "constraint": "(Eq false (Eq 0 (Read w8 0 arg01)))",
@@ -21100,7 +21690,9 @@
             4797
         ],
         "potential": 902,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1928": {
         "constraint": "(Eq false (Eq 0 (Read w8 8 arg00)))",
@@ -21242,7 +21834,9 @@
             1941
         ],
         "potential": 390,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1941": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -21253,7 +21847,9 @@
             1942
         ],
         "potential": 390,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1942": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -21264,7 +21860,9 @@
             1943
         ],
         "potential": 390,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1943": {
         "constraint": "(Eq 87 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -21276,7 +21874,9 @@
             4224
         ],
         "potential": 390,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "1944": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -23780,7 +24380,9 @@
             3011
         ],
         "potential": 547,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2175": {
         "constraint": "(Eq 10 (Read w8 1 arg00))",
@@ -24858,7 +25460,9 @@
             2280
         ],
         "potential": 495,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2280": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -24869,7 +25473,9 @@
             2281
         ],
         "potential": 495,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2281": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -24880,7 +25486,9 @@
             2282
         ],
         "potential": 495,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2282": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -24891,7 +25499,9 @@
             2283
         ],
         "potential": 495,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2283": {
         "constraint": "(Eq 97 (Read w8 2 arg00))",
@@ -24902,7 +25512,9 @@
             2284
         ],
         "potential": 495,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2284": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -24913,7 +25525,9 @@
             2285
         ],
         "potential": 495,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2285": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg01)))",
@@ -24946,7 +25560,9 @@
             2586
         ],
         "potential": 495,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2286": {
         "constraint": "(Eq 70 (Extract w8 0 (SExt w32 (Read w8 1 arg01))))",
@@ -24968,7 +25584,9 @@
             4977
         ],
         "potential": 881,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2288": {
         "constraint": "(Eq false (Eq 0 (Read w8 9 arg00)))",
@@ -24980,7 +25598,9 @@
             5078
         ],
         "potential": 515,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2289": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -24991,7 +25611,9 @@
             2290
         ],
         "potential": 397,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2290": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -25002,7 +25624,9 @@
             2291
         ],
         "potential": 397,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2291": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -25013,7 +25637,9 @@
             2292
         ],
         "potential": 397,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2292": {
         "constraint": "(Eq 61 (Read w8 7 arg00))",
@@ -25024,7 +25650,9 @@
             2293
         ],
         "potential": 397,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2293": {
         "constraint": "(Eq 97 (Read w8 2 arg00))",
@@ -25035,7 +25663,9 @@
             2294
         ],
         "potential": 397,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2294": {
         "constraint": "(Eq 115 (Read w8 3 arg00))",
@@ -25046,7 +25676,9 @@
             2295
         ],
         "potential": 397,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2295": {
         "constraint": "(Eq 115 (Read w8 4 arg00))",
@@ -25057,7 +25689,9 @@
             2296
         ],
         "potential": 397,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2296": {
         "constraint": "(Eq 105 (Read w8 5 arg00))",
@@ -25068,7 +25702,9 @@
             2297
         ],
         "potential": 397,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2297": {
         "constraint": "(Eq 103 (Read w8 6 arg00))",
@@ -25079,7 +25715,9 @@
             2298
         ],
         "potential": 397,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2298": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -25090,7 +25728,9 @@
             2299
         ],
         "potential": 397,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2299": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg01)))",
@@ -25105,7 +25745,9 @@
             2451
         ],
         "potential": 397,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2300": {
         "constraint": "(Eq 70 (Extract w8 0 (SExt w32 (Read w8 1 arg01))))",
@@ -25180,7 +25822,9 @@
             2370
         ],
         "potential": 535,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2308": {
         "constraint": "(Eq false (Eq 0 (Read w8 8 arg00)))",
@@ -25192,7 +25836,9 @@
             2397
         ],
         "potential": 534,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2309": {
         "constraint": "(Eq false (Eq 0 (Read w8 9 arg00)))",
@@ -25204,7 +25850,9 @@
             4968
         ],
         "potential": 516,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2310": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -25684,7 +26332,9 @@
             2354
         ],
         "potential": 388,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2354": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -25695,7 +26345,9 @@
             2355
         ],
         "potential": 388,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2355": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -25706,7 +26358,9 @@
             2356
         ],
         "potential": 388,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2356": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -25717,7 +26371,9 @@
             2357
         ],
         "potential": 388,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2357": {
         "constraint": "(Eq 97 (Read w8 2 arg00))",
@@ -25728,7 +26384,9 @@
             2358
         ],
         "potential": 388,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2358": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -25739,7 +26397,9 @@
             2359
         ],
         "potential": 388,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2359": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg01)))",
@@ -25750,7 +26410,9 @@
             2360
         ],
         "potential": 388,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2360": {
         "constraint": "(Eq 80 (Extract w8 0 (SExt w32 (Read w8 1 arg01))))",
@@ -25761,7 +26423,9 @@
             2361
         ],
         "potential": 388,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2361": {
         "constraint": "(Eq 61 (Read w8 6 arg00))",
@@ -25772,7 +26436,9 @@
             2362
         ],
         "potential": 388,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2362": {
         "constraint": "(Eq 66 (Read w8 4 arg00))",
@@ -25783,7 +26449,9 @@
             2363
         ],
         "potential": 388,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2363": {
         "constraint": "(Eq 69 (Read w8 5 arg00))",
@@ -25795,7 +26463,9 @@
             2389
         ],
         "potential": 388,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2364": {
         "constraint": "(Eq 92 (Read w8 9 arg00))",
@@ -25806,7 +26476,9 @@
             2365
         ],
         "potential": 386,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2365": {
         "constraint": "(Eq 43 (Read w8 7 arg00))",
@@ -25819,7 +26491,9 @@
             2387
         ],
         "potential": 386,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2366": {
         "constraint": "(Eq 49 (Read w8 8 arg00))",
@@ -26367,7 +27041,9 @@
             2417
         ],
         "potential": 436,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2417": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -26378,7 +27054,9 @@
             2418
         ],
         "potential": 436,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2418": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -26391,7 +27069,9 @@
             2865
         ],
         "potential": 436,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2419": {
         "constraint": "(Eq 80 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -26614,7 +27294,9 @@
             2440
         ],
         "potential": 607,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2440": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -26625,7 +27307,9 @@
             2441
         ],
         "potential": 607,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2441": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -26637,7 +27321,9 @@
             3850
         ],
         "potential": 607,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2442": {
         "constraint": "(Eq 97 (Read w8 2 arg00))",
@@ -27996,7 +28682,9 @@
             5449
         ],
         "potential": 818,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2569": {
         "constraint": "(Eq false (Eq 0 (Read w8 6 arg00)))",
@@ -28007,7 +28695,9 @@
             2570
         ],
         "potential": 414,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2570": {
         "constraint": "(Eq false (Eq 0 (Read w8 7 arg00)))",
@@ -28018,7 +28708,9 @@
             2571
         ],
         "potential": 414,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2571": {
         "constraint": "(Eq false (Eq 0 (Read w8 8 arg00)))",
@@ -28029,7 +28721,9 @@
             2572
         ],
         "potential": 414,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2572": {
         "constraint": "(Eq false (Eq 0 (Read w8 9 arg00)))",
@@ -28041,7 +28735,9 @@
             4961
         ],
         "potential": 414,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2573": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -29097,7 +29793,9 @@
             2671
         ],
         "potential": 487,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2671": {
         "constraint": "(Eq false (Eq 0 (Read w8 8 arg00)))",
@@ -29108,7 +29806,9 @@
             2672
         ],
         "potential": 487,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2672": {
         "constraint": "(Eq false (Eq 0 (Read w8 9 arg00)))",
@@ -29120,7 +29820,9 @@
             5525
         ],
         "potential": 487,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2673": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -30529,7 +31231,9 @@
             2802
         ],
         "potential": 403,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2802": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -30540,7 +31244,9 @@
             2803
         ],
         "potential": 403,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2803": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -30553,7 +31259,9 @@
             4957
         ],
         "potential": 403,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2804": {
         "constraint": "(Eq 87 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -31455,7 +32163,9 @@
             3824
         ],
         "potential": 1289,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2889": {
         "constraint": "(Eq false (Eq 0 (Read w8 0 arg01)))",
@@ -31466,7 +32176,9 @@
             2890
         ],
         "potential": 870,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2890": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -31477,7 +32189,9 @@
             2891
         ],
         "potential": 870,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2891": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -31488,7 +32202,9 @@
             2892
         ],
         "potential": 870,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2892": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -31500,7 +32216,9 @@
             3808
         ],
         "potential": 870,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2893": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -31512,7 +32230,9 @@
             4013
         ],
         "potential": 868,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2894": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 2 arg00))))",
@@ -31523,7 +32243,9 @@
             2895
         ],
         "potential": 868,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2895": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 3 arg00))))",
@@ -31534,7 +32256,9 @@
             2896
         ],
         "potential": 868,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2896": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 4 arg00))))",
@@ -31545,7 +32269,9 @@
             2897
         ],
         "potential": 868,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2897": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 5 arg00))))",
@@ -31556,7 +32282,9 @@
             2898
         ],
         "potential": 868,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2898": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 6 arg00))))",
@@ -31574,7 +32302,9 @@
             4142
         ],
         "potential": 868,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "2899": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 7 arg00))))",
@@ -31661,7 +32391,9 @@
             2907
         ],
         "potential": 1244,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2907": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -31676,7 +32408,9 @@
             3927
         ],
         "potential": 1244,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2908": {
         "constraint": "(Eq 68 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -32079,7 +32813,9 @@
             2947
         ],
         "potential": 849,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2947": {
         "constraint": "(Eq false (Eq 32 (Read w8 0 arg00)))",
@@ -32091,7 +32827,9 @@
             4194
         ],
         "potential": 849,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2948": {
         "constraint": "(Or (Eq 57 (Read w8 0 arg00)) (Or (Eq 56 (Read w8 0 arg00)) (Or (Eq 55 (Read w8 0 arg00)) (Or (Eq 54 (Read w8 0 arg00)) (Or (Eq 53 (Read w8 0 arg00)) (Or (Eq 52 (Read w8 0 arg00)) (Or (Eq 51 (Read w8 0 arg00)) (Or (Eq 50 (Read w8 0 arg00)) (Or (Eq 49 (Read w8 0 arg00)) (Eq 48 (Read w8 0 arg00)))))))))))",
@@ -32102,7 +32840,9 @@
             2949
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2949": {
         "constraint": "(Or (Eq 13 (Read w8 1 arg00)) (Or (Eq 12 (Read w8 1 arg00)) (Or (Eq 10 (Read w8 1 arg00)) (Or (Eq 9 (Read w8 1 arg00)) (Or (Eq 8 (Read w8 1 arg00)) (Eq 7 (Read w8 1 arg00)))))))",
@@ -32113,7 +32853,9 @@
             2950
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2950": {
         "constraint": "(Eq false (Eq 97 (Read w8 1 arg00)))",
@@ -32124,7 +32866,9 @@
             2951
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2951": {
         "constraint": "(Eq false (Eq 98 (Read w8 1 arg00)))",
@@ -32135,7 +32879,9 @@
             2952
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2952": {
         "constraint": "(Eq false (Eq 99 (Read w8 1 arg00)))",
@@ -32146,7 +32892,9 @@
             2953
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2953": {
         "constraint": "(Eq false (Eq 100 (Read w8 1 arg00)))",
@@ -32157,7 +32905,9 @@
             2954
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2954": {
         "constraint": "(Eq false (Eq 101 (Read w8 1 arg00)))",
@@ -32168,7 +32918,9 @@
             2955
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2955": {
         "constraint": "(Eq false (Eq 102 (Read w8 1 arg00)))",
@@ -32179,7 +32931,9 @@
             2956
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2956": {
         "constraint": "(Eq false (Eq 120 (Read w8 1 arg00)))",
@@ -32190,7 +32944,9 @@
             2957
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2957": {
         "constraint": "(Eq false (Eq 65 (Read w8 1 arg00)))",
@@ -32201,7 +32957,9 @@
             2958
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2958": {
         "constraint": "(Eq false (Eq 66 (Read w8 1 arg00)))",
@@ -32212,7 +32970,9 @@
             2959
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2959": {
         "constraint": "(Eq false (Eq 67 (Read w8 1 arg00)))",
@@ -32223,7 +32983,9 @@
             2960
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2960": {
         "constraint": "(Eq false (Eq 68 (Read w8 1 arg00)))",
@@ -32234,7 +32996,9 @@
             2961
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2961": {
         "constraint": "(Eq false (Eq 69 (Read w8 1 arg00)))",
@@ -32245,7 +33009,9 @@
             2962
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2962": {
         "constraint": "(Eq false (Eq 70 (Read w8 1 arg00)))",
@@ -32256,7 +33022,9 @@
             2963
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2963": {
         "constraint": "(Eq false (Eq 88 (Read w8 1 arg00)))",
@@ -32267,7 +33035,9 @@
             2964
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2964": {
         "constraint": "(Eq false (Eq 46 (Read w8 1 arg00)))",
@@ -32278,7 +33048,9 @@
             2965
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2965": {
         "constraint": "(Eq false (Eq 48 (Read w8 1 arg00)))",
@@ -32289,7 +33061,9 @@
             2966
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2966": {
         "constraint": "(Eq false (Eq 49 (Read w8 1 arg00)))",
@@ -32300,7 +33074,9 @@
             2967
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2967": {
         "constraint": "(Eq false (Eq 50 (Read w8 1 arg00)))",
@@ -32311,7 +33087,9 @@
             2968
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2968": {
         "constraint": "(Eq false (Eq 51 (Read w8 1 arg00)))",
@@ -32322,7 +33100,9 @@
             2969
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2969": {
         "constraint": "(Eq false (Eq 52 (Read w8 1 arg00)))",
@@ -32333,7 +33113,9 @@
             2970
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2970": {
         "constraint": "(Eq false (Eq 53 (Read w8 1 arg00)))",
@@ -32344,7 +33126,9 @@
             2971
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2971": {
         "constraint": "(Eq false (Eq 54 (Read w8 1 arg00)))",
@@ -32355,7 +33139,9 @@
             2972
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2972": {
         "constraint": "(Eq false (Eq 55 (Read w8 1 arg00)))",
@@ -32366,7 +33152,9 @@
             2973
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2973": {
         "constraint": "(Eq false (Eq 56 (Read w8 1 arg00)))",
@@ -32377,7 +33165,9 @@
             2974
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2974": {
         "constraint": "(Eq false (Eq 57 (Read w8 1 arg00)))",
@@ -32389,7 +33179,9 @@
             4234
         ],
         "potential": 838,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2975": {
         "constraint": "(Eq 48 (Extract w8 0 (ZExt w32 (Read w8 0 arg00))))",
@@ -32400,7 +33192,9 @@
             2976
         ],
         "potential": 821,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2976": {
         "constraint": "(Or (Eq 13 (Read w8 1 arg00)) (Eq 9 (Read w8 1 arg00)))",
@@ -32444,7 +33238,9 @@
             2995
         ],
         "potential": 1391,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "2980": {
         "constraint": "(Eq 61 (Read w8 1 arg00))",
@@ -33159,7 +33955,9 @@
             4839
         ],
         "potential": 698,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3049": {
         "constraint": "(Eq false (Eq 0 (Read w8 0 arg01)))",
@@ -33414,7 +34212,9 @@
             3073
         ],
         "potential": 808,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3073": {
         "constraint": "(Eq false (Eq 32 (Read w8 0 arg00)))",
@@ -33426,7 +34226,9 @@
             4619
         ],
         "potential": 808,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3074": {
         "constraint": "(Or (Eq 59 (Read w8 0 arg00)) (Or (Eq 44 (Read w8 0 arg00)) (Eq 91 (Read w8 0 arg00))))",
@@ -33437,7 +34239,9 @@
             3075
         ],
         "potential": 515,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3075": {
         "constraint": "(Eq (SExt w32 (Read w8 (Extract w32 0 (SExt w64 (ZExt w32 (Read w8 0 arg00)))) const_arr3)) (SExt w32 (ReadLSB w16 (Extract w32 0 (Mul w64 2 (SExt w64 (Add w32 316 (SExt w32 (Read w8 (Extract w32 0 (SExt w64 (ZExt w32 (Read w8 0 arg00)))) const_arr3)))))) const_arr4)))",
@@ -33448,7 +34252,9 @@
             3076
         ],
         "potential": 515,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3076": {
         "constraint": "(Or (Eq 13 (Read w8 1 arg00)) (Or (Eq 12 (Read w8 1 arg00)) (Or (Eq 10 (Read w8 1 arg00)) (Or (Eq 9 (Read w8 1 arg00)) (Or (Eq 8 (Read w8 1 arg00)) (Eq 7 (Read w8 1 arg00)))))))",
@@ -33697,7 +34503,9 @@
             3099
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3099": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -33708,7 +34516,9 @@
             3100
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3100": {
         "constraint": "(Eq false (Eq 8192 (And w32 (ReadLSB w32 24 stdout-stat) 61440)))",
@@ -33719,7 +34529,9 @@
             3101
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3101": {
         "constraint": "(Eq 10 (Read w8 0 arg00))",
@@ -33730,7 +34542,9 @@
             3102
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3102": {
         "constraint": "(Or (Eq 13 (Read w8 1 arg00)) (Or (Eq 12 (Read w8 1 arg00)) (Or (Eq 10 (Read w8 1 arg00)) (Or (Eq 9 (Read w8 1 arg00)) (Or (Eq 8 (Read w8 1 arg00)) (Eq 7 (Read w8 1 arg00)))))))",
@@ -33741,7 +34555,9 @@
             3103
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3103": {
         "constraint": "(Or (Eq 13 (Read w8 1 arg00)) (Eq 9 (Read w8 1 arg00)))",
@@ -33752,7 +34568,9 @@
             3104
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3104": {
         "constraint": "(Or (Eq 13 (Read w8 2 arg00)) (Or (Eq 12 (Read w8 2 arg00)) (Or (Eq 10 (Read w8 2 arg00)) (Or (Eq 9 (Read w8 2 arg00)) (Or (Eq 8 (Read w8 2 arg00)) (Eq 7 (Read w8 2 arg00)))))))",
@@ -33763,7 +34581,9 @@
             3105
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3105": {
         "constraint": "(Or (Eq 13 (Read w8 2 arg00)) (Eq 9 (Read w8 2 arg00)))",
@@ -33774,7 +34594,9 @@
             3106
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3106": {
         "constraint": "(Or (Eq 13 (Read w8 3 arg00)) (Or (Eq 12 (Read w8 3 arg00)) (Or (Eq 10 (Read w8 3 arg00)) (Or (Eq 9 (Read w8 3 arg00)) (Or (Eq 8 (Read w8 3 arg00)) (Eq 7 (Read w8 3 arg00)))))))",
@@ -33785,7 +34607,9 @@
             3107
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3107": {
         "constraint": "(Or (Eq 13 (Read w8 3 arg00)) (Eq 9 (Read w8 3 arg00)))",
@@ -33796,7 +34620,9 @@
             3108
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3108": {
         "constraint": "(Or (Eq 13 (Read w8 4 arg00)) (Or (Eq 12 (Read w8 4 arg00)) (Or (Eq 10 (Read w8 4 arg00)) (Or (Eq 9 (Read w8 4 arg00)) (Or (Eq 8 (Read w8 4 arg00)) (Eq 7 (Read w8 4 arg00)))))))",
@@ -33807,7 +34633,9 @@
             3109
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3109": {
         "constraint": "(Or (Eq 13 (Read w8 4 arg00)) (Eq 9 (Read w8 4 arg00)))",
@@ -33818,7 +34646,9 @@
             3110
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3110": {
         "constraint": "(Or (Eq 13 (Read w8 5 arg00)) (Or (Eq 12 (Read w8 5 arg00)) (Or (Eq 10 (Read w8 5 arg00)) (Or (Eq 9 (Read w8 5 arg00)) (Or (Eq 8 (Read w8 5 arg00)) (Eq 7 (Read w8 5 arg00)))))))",
@@ -33829,7 +34659,9 @@
             3111
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3111": {
         "constraint": "(Or (Eq 13 (Read w8 5 arg00)) (Eq 9 (Read w8 5 arg00)))",
@@ -33840,7 +34672,9 @@
             3112
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3112": {
         "constraint": "(Or (Eq 13 (Read w8 6 arg00)) (Or (Eq 12 (Read w8 6 arg00)) (Or (Eq 10 (Read w8 6 arg00)) (Or (Eq 9 (Read w8 6 arg00)) (Or (Eq 8 (Read w8 6 arg00)) (Eq 7 (Read w8 6 arg00)))))))",
@@ -33851,7 +34685,9 @@
             3113
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3113": {
         "constraint": "(Or (Eq 13 (Read w8 6 arg00)) (Eq 9 (Read w8 6 arg00)))",
@@ -33862,7 +34698,9 @@
             3114
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3114": {
         "constraint": "(Or (Eq 13 (Read w8 7 arg00)) (Or (Eq 12 (Read w8 7 arg00)) (Or (Eq 10 (Read w8 7 arg00)) (Or (Eq 9 (Read w8 7 arg00)) (Or (Eq 8 (Read w8 7 arg00)) (Eq 7 (Read w8 7 arg00)))))))",
@@ -33873,7 +34711,9 @@
             3115
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3115": {
         "constraint": "(Or (Eq 13 (Read w8 7 arg00)) (Eq 9 (Read w8 7 arg00)))",
@@ -33885,7 +34725,9 @@
             3315
         ],
         "potential": 615,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3116": {
         "constraint": "(Or (Eq 13 (Read w8 8 arg00)) (Or (Eq 12 (Read w8 8 arg00)) (Or (Eq 10 (Read w8 8 arg00)) (Or (Eq 9 (Read w8 8 arg00)) (Or (Eq 8 (Read w8 8 arg00)) (Eq 7 (Read w8 8 arg00)))))))",
@@ -33896,7 +34738,9 @@
             3117
         ],
         "potential": 566,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3117": {
         "constraint": "(Or (Eq 13 (Read w8 8 arg00)) (Eq 9 (Read w8 8 arg00)))",
@@ -33908,7 +34752,9 @@
             3139
         ],
         "potential": 566,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3118": {
         "constraint": "(Eq 10 (Read w8 9 arg00))",
@@ -38452,7 +39298,9 @@
             3637
         ],
         "potential": 784,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3533": {
         "constraint": "(Eq false (Eq 0 (Read w8 4 arg00)))",
@@ -38780,7 +39628,9 @@
             3563
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3563": {
         "constraint": "(Eq false (Eq 0 (Read w8 5 arg00)))",
@@ -38791,7 +39641,9 @@
             3564
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3564": {
         "constraint": "(Eq false (Eq 0 (Read w8 6 arg00)))",
@@ -38802,7 +39654,9 @@
             3565
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3565": {
         "constraint": "(Eq false (Eq 0 (Read w8 7 arg00)))",
@@ -38813,7 +39667,9 @@
             3566
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3566": {
         "constraint": "(Eq false (Eq 0 (Read w8 8 arg00)))",
@@ -38824,7 +39680,9 @@
             3567
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3567": {
         "constraint": "(Eq false (Eq 0 (Read w8 9 arg00)))",
@@ -38835,7 +39693,9 @@
             3568
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3568": {
         "constraint": "(Eq false (Eq 0 (Read w8 0 arg01)))",
@@ -38846,7 +39706,9 @@
             3569
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3569": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -38857,7 +39719,9 @@
             3570
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3570": {
         "constraint": "(Eq false (Eq 45 (Read w8 0 arg00)))",
@@ -38868,7 +39732,9 @@
             3571
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3571": {
         "constraint": "(Eq false (Eq 8192 (And w32 (ReadLSB w32 24 stdout-stat) 61440)))",
@@ -38879,7 +39745,9 @@
             3572
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3572": {
         "constraint": "(Or (Eq 13 (Read w8 0 arg00)) (Or (Eq 12 (Read w8 0 arg00)) (Or (Eq 10 (Read w8 0 arg00)) (Or (Eq 9 (Read w8 0 arg00)) (Or (Eq 8 (Read w8 0 arg00)) (Eq 7 (Read w8 0 arg00)))))))",
@@ -38890,7 +39758,9 @@
             3573
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3573": {
         "constraint": "(Or (Eq 13 (Read w8 0 arg00)) (Eq 9 (Read w8 0 arg00)))",
@@ -38901,7 +39771,9 @@
             3574
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3574": {
         "constraint": "(Or (Eq 13 (Read w8 1 arg00)) (Or (Eq 12 (Read w8 1 arg00)) (Or (Eq 10 (Read w8 1 arg00)) (Or (Eq 9 (Read w8 1 arg00)) (Or (Eq 8 (Read w8 1 arg00)) (Eq 7 (Read w8 1 arg00)))))))",
@@ -38912,7 +39784,9 @@
             3575
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3575": {
         "constraint": "(Or (Eq 13 (Read w8 1 arg00)) (Eq 9 (Read w8 1 arg00)))",
@@ -38925,7 +39799,9 @@
             3593
         ],
         "potential": 754,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3576": {
         "constraint": "(Eq 34 (Read w8 2 arg00))",
@@ -38937,7 +39813,9 @@
             3596
         ],
         "potential": 732,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3577": {
         "constraint": "(Eq 34 (Read w8 3 arg00))",
@@ -39412,7 +40290,9 @@
             3689
         ],
         "potential": 526,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3621": {
         "constraint": "(Eq false (Eq 0 (Read w8 6 arg00)))",
@@ -39598,7 +40478,9 @@
             3726
         ],
         "potential": 716,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3638": {
         "constraint": "(Eq false (Eq 0 (Read w8 6 arg00)))",
@@ -40973,7 +41855,9 @@
             3795
         ],
         "potential": 531,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3764": {
         "constraint": "(Eq 10 (Read w8 1 arg00))",
@@ -41582,7 +42466,9 @@
             4136
         ],
         "potential": 738,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3823": {
         "constraint": "(Eq 58 (Extract w8 0 (SExt w32 (Read w8 8 arg00))))",
@@ -41602,7 +42488,9 @@
             3825
         ],
         "potential": 408,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3825": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -41613,7 +42501,9 @@
             3826
         ],
         "potential": 408,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3826": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -41624,7 +42514,9 @@
             3827
         ],
         "potential": 408,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3827": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -41635,7 +42527,9 @@
             3828
         ],
         "potential": 408,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3828": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 2 arg00))))",
@@ -41646,7 +42540,9 @@
             3829
         ],
         "potential": 408,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3829": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 3 arg00))))",
@@ -41657,7 +42553,9 @@
             3830
         ],
         "potential": 408,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3830": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 4 arg00))))",
@@ -41668,7 +42566,9 @@
             3831
         ],
         "potential": 408,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3831": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 5 arg00))))",
@@ -41679,7 +42579,9 @@
             3832
         ],
         "potential": 408,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3832": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 6 arg00))))",
@@ -41691,7 +42593,9 @@
             4128
         ],
         "potential": 408,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "3833": {
         "constraint": "(Eq 80 (Extract w8 0 (SExt w32 (Read w8 7 arg00))))",
@@ -41881,7 +42785,9 @@
             3851
         ],
         "potential": 587,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3851": {
         "constraint": "(Eq false (Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (ZExt w64 (Read w8 4 arg00))))) const_arr1) 8192)))",
@@ -41892,7 +42798,9 @@
             3852
         ],
         "potential": 587,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3852": {
         "constraint": "(Eq false (Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (ZExt w64 (Read w8 5 arg00))))) const_arr1) 8192)))",
@@ -41903,7 +42811,9 @@
             3853
         ],
         "potential": 587,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3853": {
         "constraint": "(Eq false (Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (ZExt w64 (Read w8 6 arg00))))) const_arr1) 8192)))",
@@ -41914,7 +42824,9 @@
             3854
         ],
         "potential": 587,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3854": {
         "constraint": "(Eq false (Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (ZExt w64 (Read w8 7 arg00))))) const_arr1) 8192)))",
@@ -41925,7 +42837,9 @@
             3855
         ],
         "potential": 587,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3855": {
         "constraint": "(Eq false (Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (ZExt w64 (Read w8 8 arg00))))) const_arr1) 8192)))",
@@ -41936,7 +42850,9 @@
             3856
         ],
         "potential": 587,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3856": {
         "constraint": "(Eq false (Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (ZExt w64 (Read w8 9 arg00))))) const_arr1) 8192)))",
@@ -41949,7 +42865,9 @@
             3861
         ],
         "potential": 587,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3857": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -42673,7 +43591,9 @@
             4009
         ],
         "potential": 950,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3924": {
         "constraint": "(Eq 70 (Extract w8 0 (SExt w32 (Read w8 2 arg00))))",
@@ -43417,7 +44337,9 @@
             4085
         ],
         "potential": 544,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "3993": {
         "constraint": "(Eq 118 (Extract w8 0 (SExt w32 (Read w8 3 arg00))))",
@@ -43672,7 +44594,9 @@
             4029
         ],
         "potential": 646,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4017": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -43683,7 +44607,9 @@
             4018
         ],
         "potential": 591,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4018": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -43694,7 +44620,9 @@
             4019
         ],
         "potential": 591,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4019": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -43705,7 +44633,9 @@
             4020
         ],
         "potential": 591,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4020": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 2 arg00))))",
@@ -43716,7 +44646,9 @@
             4021
         ],
         "potential": 591,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4021": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 3 arg00))))",
@@ -43727,7 +44659,9 @@
             4022
         ],
         "potential": 591,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4022": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 4 arg00))))",
@@ -43738,7 +44672,9 @@
             4023
         ],
         "potential": 591,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4023": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 5 arg00))))",
@@ -43749,7 +44685,9 @@
             4024
         ],
         "potential": 591,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4024": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 6 arg00))))",
@@ -43763,7 +44701,9 @@
             4124
         ],
         "potential": 591,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4025": {
         "constraint": "(Eq 102 (Extract w8 0 (SExt w32 (Read w8 7 arg00))))",
@@ -43816,7 +44756,9 @@
             4030
         ],
         "potential": 559,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4030": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -43827,7 +44769,9 @@
             4031
         ],
         "potential": 559,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4031": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -43838,7 +44782,9 @@
             4032
         ],
         "potential": 559,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4032": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -43849,7 +44795,9 @@
             4033
         ],
         "potential": 559,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4033": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -43860,7 +44808,9 @@
             4034
         ],
         "potential": 559,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4034": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 2 arg00))))",
@@ -43871,7 +44821,9 @@
             4035
         ],
         "potential": 559,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4035": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 3 arg00))))",
@@ -43882,7 +44834,9 @@
             4036
         ],
         "potential": 559,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4036": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 4 arg00))))",
@@ -43893,7 +44847,9 @@
             4037
         ],
         "potential": 559,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4037": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 5 arg00))))",
@@ -43906,7 +44862,9 @@
             4115
         ],
         "potential": 559,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4038": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 6 arg00))))",
@@ -43918,7 +44876,9 @@
             4111
         ],
         "potential": 547,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4039": {
         "constraint": "(Eq 102 (Extract w8 0 (SExt w32 (Read w8 7 arg00))))",
@@ -43949,7 +44909,9 @@
             4042
         ],
         "potential": 446,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4042": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -43960,7 +44922,9 @@
             4043
         ],
         "potential": 446,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4043": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -43971,7 +44935,9 @@
             4044
         ],
         "potential": 446,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4044": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -43982,7 +44948,9 @@
             4045
         ],
         "potential": 446,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4045": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 2 arg00))))",
@@ -43993,7 +44961,9 @@
             4046
         ],
         "potential": 446,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4046": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 3 arg00))))",
@@ -44004,7 +44974,9 @@
             4047
         ],
         "potential": 446,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4047": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 4 arg00))))",
@@ -44015,7 +44987,9 @@
             4048
         ],
         "potential": 446,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4048": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 5 arg00))))",
@@ -44028,7 +45002,9 @@
             4062
         ],
         "potential": 446,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4049": {
         "constraint": "(Eq 105 (Extract w8 0 (SExt w32 (Read w8 6 arg00))))",
@@ -44424,7 +45400,9 @@
             4086
         ],
         "potential": 544,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4086": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 4 arg00))))",
@@ -44435,7 +45413,9 @@
             4087
         ],
         "potential": 544,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4087": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 5 arg00))))",
@@ -44448,7 +45428,9 @@
             4100
         ],
         "potential": 544,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4088": {
         "constraint": "(Eq 110 (Extract w8 0 (SExt w32 (Read w8 6 arg00))))",
@@ -44587,7 +45569,9 @@
             4144
         ],
         "potential": 511,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4101": {
         "constraint": "(Eq 78 (Extract w8 0 (SExt w32 (Read w8 7 arg00))))",
@@ -44803,7 +45787,9 @@
             4158
         ],
         "potential": 426,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4121": {
         "constraint": "(Eq 68 (Extract w8 0 (SExt w32 (Read w8 8 arg00))))",
@@ -45670,7 +46656,9 @@
             4206
         ],
         "potential": 539,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4203": {
         "constraint": "(Eq 10 (Read w8 1 arg00))",
@@ -47438,7 +48426,9 @@
             4734
         ],
         "potential": 1066,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4369": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -47602,7 +48592,9 @@
             4750
         ],
         "potential": 998,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4384": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -47613,7 +48605,9 @@
             4385
         ],
         "potential": 925,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4385": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -47624,7 +48618,9 @@
             4386
         ],
         "potential": 925,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4386": {
         "constraint": "(Eq 70 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -47635,7 +48631,9 @@
             4387
         ],
         "potential": 925,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4387": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -47646,7 +48644,9 @@
             4388
         ],
         "potential": 925,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4388": {
         "constraint": "(Eq 45 (Read w8 1 arg01))",
@@ -47657,7 +48657,9 @@
             4389
         ],
         "potential": 925,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4389": {
         "constraint": "(Eq 116 (Read w8 2 arg00))",
@@ -47668,7 +48670,9 @@
             4390
         ],
         "potential": 925,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4390": {
         "constraint": "(Eq 92 (Read w8 3 arg00))",
@@ -47679,7 +48683,9 @@
             4391
         ],
         "potential": 925,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4391": {
         "constraint": "(Eq 97 (Read w8 4 arg00))",
@@ -47690,7 +48696,9 @@
             4392
         ],
         "potential": 925,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4392": {
         "constraint": "(Eq 92 (Read w8 5 arg00))",
@@ -47701,7 +48709,9 @@
             4393
         ],
         "potential": 925,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4393": {
         "constraint": "(Eq 97 (Read w8 6 arg00))",
@@ -47712,7 +48722,9 @@
             4394
         ],
         "potential": 925,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4394": {
         "constraint": "(Eq 92 (Read w8 7 arg00))",
@@ -47724,7 +48736,9 @@
             4399
         ],
         "potential": 925,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4395": {
         "constraint": "(Or (Eq 55 (Read w8 8 arg00)) (Or (Eq 54 (Read w8 8 arg00)) (Or (Eq 53 (Read w8 8 arg00)) (Or (Eq 52 (Read w8 8 arg00)) (Or (Eq 51 (Read w8 8 arg00)) (Or (Eq 50 (Read w8 8 arg00)) (Or (Eq 49 (Read w8 8 arg00)) (Eq 48 (Read w8 8 arg00)))))))))",
@@ -47736,7 +48750,9 @@
             4614
         ],
         "potential": 901,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4396": {
         "constraint": "(Eq 48 (And w8 (Read w8 9 arg00) 248))",
@@ -49975,7 +50991,9 @@
             4767
         ],
         "potential": 1030,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4601": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -50616,7 +51634,9 @@
             4661
         ],
         "potential": 1053,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4661": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -50627,7 +51647,9 @@
             4662
         ],
         "potential": 1053,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4662": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -50638,7 +51660,9 @@
             4663
         ],
         "potential": 1053,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4663": {
         "constraint": "(Eq 70 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -50649,7 +51673,9 @@
             4664
         ],
         "potential": 1053,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4664": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -50660,7 +51686,9 @@
             4665
         ],
         "potential": 1053,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4665": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg01)))",
@@ -50671,7 +51699,9 @@
             4666
         ],
         "potential": 1053,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4666": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 1 arg01))))",
@@ -50683,7 +51713,9 @@
             4703
         ],
         "potential": 1053,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4667": {
         "constraint": "(Eq 116 (Read w8 2 arg00))",
@@ -50694,7 +51726,9 @@
             4668
         ],
         "potential": 1052,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4668": {
         "constraint": "(Eq 92 (Read w8 3 arg00))",
@@ -50705,7 +51739,9 @@
             4669
         ],
         "potential": 1052,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4669": {
         "constraint": "(Eq 97 (Read w8 4 arg00))",
@@ -50716,7 +51752,9 @@
             4670
         ],
         "potential": 1052,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4670": {
         "constraint": "(Eq 92 (Read w8 5 arg00))",
@@ -50730,7 +51768,9 @@
             4730
         ],
         "potential": 1052,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4671": {
         "constraint": "(Eq 97 (Read w8 6 arg00))",
@@ -50741,7 +51781,9 @@
             4672
         ],
         "potential": 914,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4672": {
         "constraint": "(Eq 92 (Read w8 7 arg00))",
@@ -50759,7 +51801,9 @@
             4765
         ],
         "potential": 914,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4673": {
         "constraint": "(Eq 98 (Read w8 8 arg00))",
@@ -50867,7 +51911,9 @@
             4684
         ],
         "potential": 970,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4684": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -50878,7 +51924,9 @@
             4685
         ],
         "potential": 970,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4685": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -50889,7 +51937,9 @@
             4686
         ],
         "potential": 970,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4686": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -50900,7 +51950,9 @@
             4687
         ],
         "potential": 970,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4687": {
         "constraint": "(Eq 70 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -50911,7 +51963,9 @@
             4688
         ],
         "potential": 970,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4688": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -50922,7 +51976,9 @@
             4689
         ],
         "potential": 970,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4689": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg01)))",
@@ -50945,7 +52001,9 @@
             4702
         ],
         "potential": 970,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4690": {
         "constraint": "(Eq 110 (Extract w8 0 (SExt w32 (Read w8 1 arg01))))",
@@ -51395,7 +52453,9 @@
             4735
         ],
         "potential": 908,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4735": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -51406,7 +52466,9 @@
             4736
         ],
         "potential": 908,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4736": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -51417,7 +52479,9 @@
             4737
         ],
         "potential": 908,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4737": {
         "constraint": "(Eq 70 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -51428,7 +52492,9 @@
             4738
         ],
         "potential": 908,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4738": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -51439,7 +52505,9 @@
             4739
         ],
         "potential": 908,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4739": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg01)))",
@@ -51450,7 +52518,9 @@
             4740
         ],
         "potential": 908,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4740": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 1 arg01))))",
@@ -51462,7 +52532,9 @@
             4924
         ],
         "potential": 908,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4741": {
         "constraint": "(Eq 116 (Read w8 2 arg00))",
@@ -51473,7 +52545,9 @@
             4742
         ],
         "potential": 894,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4742": {
         "constraint": "(Eq 92 (Read w8 3 arg00))",
@@ -51484,7 +52558,9 @@
             4743
         ],
         "potential": 894,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4743": {
         "constraint": "(Eq 97 (Read w8 4 arg00))",
@@ -51495,7 +52571,9 @@
             4744
         ],
         "potential": 894,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4744": {
         "constraint": "(Eq 92 (Read w8 5 arg00))",
@@ -51506,7 +52584,9 @@
             4745
         ],
         "potential": 894,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4745": {
         "constraint": "(Eq 97 (Read w8 6 arg00))",
@@ -51517,7 +52597,9 @@
             4746
         ],
         "potential": 894,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4746": {
         "constraint": "(Eq 92 (Read w8 7 arg00))",
@@ -51529,7 +52611,9 @@
             4784
         ],
         "potential": 894,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4747": {
         "constraint": "(Or (Eq 34 (Read w8 8 arg00)) (Eq 92 (Read w8 8 arg00)))",
@@ -51755,7 +52839,9 @@
             4768
         ],
         "potential": 897,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4768": {
         "constraint": "(Eq 45 (Read w8 0 arg00))",
@@ -51766,7 +52852,9 @@
             4769
         ],
         "potential": 897,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4769": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg00)))",
@@ -51777,7 +52865,9 @@
             4770
         ],
         "potential": 897,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4770": {
         "constraint": "(Eq 70 (Extract w8 0 (SExt w32 (Read w8 1 arg00))))",
@@ -51788,7 +52878,9 @@
             4771
         ],
         "potential": 897,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4771": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -51799,7 +52891,9 @@
             4772
         ],
         "potential": 897,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4772": {
         "constraint": "(Eq false (Eq 45 (Read w8 1 arg01)))",
@@ -51810,7 +52904,9 @@
             4773
         ],
         "potential": 897,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4773": {
         "constraint": "(Eq 98 (Extract w8 0 (SExt w32 (Read w8 1 arg01))))",
@@ -51822,7 +52918,9 @@
             4865
         ],
         "potential": 897,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4774": {
         "constraint": "(Eq 116 (Read w8 2 arg00))",
@@ -51833,7 +52931,9 @@
             4775
         ],
         "potential": 832,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4775": {
         "constraint": "(Eq 92 (Read w8 3 arg00))",
@@ -51844,7 +52944,9 @@
             4776
         ],
         "potential": 832,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4776": {
         "constraint": "(Eq 97 (Read w8 4 arg00))",
@@ -51855,7 +52957,9 @@
             4777
         ],
         "potential": 832,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4777": {
         "constraint": "(Eq 92 (Read w8 5 arg00))",
@@ -51867,7 +52971,9 @@
             4786
         ],
         "potential": 832,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4778": {
         "constraint": "(Eq 97 (Read w8 6 arg00))",
@@ -51962,7 +53068,9 @@
             4787
         ],
         "potential": 832,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4787": {
         "constraint": "(Eq 92 (Read w8 7 arg00))",
@@ -51973,7 +53081,9 @@
             4788
         ],
         "potential": 832,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4788": {
         "constraint": "(Eq 120 (Read w8 8 arg00))",
@@ -51984,7 +53094,9 @@
             4789
         ],
         "potential": 832,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4789": {
         "constraint": "(Eq false (Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (ZExt w64 (Read w8 9 arg00))))) const_arr1) 4096)))",
@@ -51996,7 +53108,9 @@
             4792
         ],
         "potential": 832,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4790": {
         "constraint": "(Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (Read w8 9 arg00))))) const_arr1) 2048))",
@@ -52008,7 +53122,9 @@
             4793
         ],
         "potential": 831,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4791": {
         "constraint": "(Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (Read w8 9 arg00))))) const_arr1) 256))",
@@ -53104,7 +54220,9 @@
             4893
         ],
         "potential": 1075,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4893": {
         "constraint": "(Eq false (Eq 0 (Read w8 6 arg00)))",
@@ -53115,7 +54233,9 @@
             4894
         ],
         "potential": 1075,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4894": {
         "constraint": "(Eq false (Eq 0 (Read w8 7 arg00)))",
@@ -53127,7 +54247,9 @@
             5246
         ],
         "potential": 1075,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4895": {
         "constraint": "(Eq false (Eq 0 (Read w8 1 arg01)))",
@@ -53920,7 +55042,9 @@
             4969
         ],
         "potential": 488,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4969": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -53931,7 +55055,9 @@
             4970
         ],
         "potential": 488,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4970": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -53942,7 +55068,9 @@
             4971
         ],
         "potential": 488,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4971": {
         "constraint": "(Eq 97 (Read w8 2 arg00))",
@@ -53953,7 +55081,9 @@
             4972
         ],
         "potential": 488,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4972": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -53964,7 +55094,9 @@
             4973
         ],
         "potential": 488,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4973": {
         "constraint": "(Eq 45 (Read w8 1 arg01))",
@@ -53976,7 +55108,9 @@
             5154
         ],
         "potential": 488,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4974": {
         "constraint": "(Eq 61 (Read w8 6 arg00))",
@@ -54018,7 +55152,9 @@
             4978
         ],
         "potential": 818,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4978": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -54029,7 +55165,9 @@
             4979
         ],
         "potential": 818,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4979": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -54040,7 +55178,9 @@
             4980
         ],
         "potential": 818,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4980": {
         "constraint": "(Eq 97 (Read w8 2 arg00))",
@@ -54051,7 +55191,9 @@
             4981
         ],
         "potential": 818,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4981": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -54062,7 +55204,9 @@
             4982
         ],
         "potential": 818,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4982": {
         "constraint": "(Eq 45 (Read w8 1 arg01))",
@@ -54073,7 +55217,9 @@
             4983
         ],
         "potential": 818,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4983": {
         "constraint": "(Eq 61 (Read w8 5 arg00))",
@@ -54084,7 +55230,9 @@
             4984
         ],
         "potential": 818,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4984": {
         "constraint": "(Eq 105 (Read w8 4 arg00))",
@@ -54096,7 +55244,9 @@
             5611
         ],
         "potential": 818,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "4985": {
         "constraint": "(Eq 92 (Read w8 6 arg00))",
@@ -54107,7 +55257,9 @@
             4986
         ],
         "potential": 466,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4986": {
         "constraint": "(Eq 120 (Read w8 7 arg00))",
@@ -54118,7 +55270,9 @@
             4987
         ],
         "potential": 466,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4987": {
         "constraint": "(Eq false (Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (ZExt w64 (Read w8 8 arg00))))) const_arr1) 4096)))",
@@ -54130,7 +55284,9 @@
             5391
         ],
         "potential": 466,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4988": {
         "constraint": "(Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (Read w8 8 arg00))))) const_arr1) 2048))",
@@ -54142,7 +55298,9 @@
             5333
         ],
         "potential": 465,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4989": {
         "constraint": "(Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (Read w8 8 arg00))))) const_arr1) 256))",
@@ -54153,7 +55311,9 @@
             4990
         ],
         "potential": 464,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4990": {
         "constraint": "(Eq 92 (Read w8 9 arg00))",
@@ -54165,7 +55325,9 @@
             5076
         ],
         "potential": 464,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "4991": {
         "constraint": "(Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (ZExt w64 (Extract w8 0 (Add w32 4294967209 (SExt w32 (Read w8 8 arg00)))))))) const_arr1) 8192))",
@@ -54790,7 +55952,9 @@
             5048
         ],
         "potential": 1253,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5048": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -54801,7 +55965,9 @@
             5049
         ],
         "potential": 1253,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5049": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -54812,7 +55978,9 @@
             5050
         ],
         "potential": 1253,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5050": {
         "constraint": "(Eq 97 (Read w8 2 arg00))",
@@ -54823,7 +55991,9 @@
             5051
         ],
         "potential": 1253,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5051": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -54834,7 +56004,9 @@
             5052
         ],
         "potential": 1253,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5052": {
         "constraint": "(Eq 45 (Read w8 1 arg01))",
@@ -54846,7 +56018,9 @@
             5266
         ],
         "potential": 1253,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5053": {
         "constraint": "(Eq 61 (Read w8 5 arg00))",
@@ -54858,7 +56032,9 @@
             5261
         ],
         "potential": 1248,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5054": {
         "constraint": "(Eq 105 (Read w8 4 arg00))",
@@ -54870,7 +56046,9 @@
             5215
         ],
         "potential": 1248,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5055": {
         "constraint": "(Eq 92 (Read w8 6 arg00))",
@@ -54885,7 +56063,9 @@
             5306
         ],
         "potential": 476,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5056": {
         "constraint": "(Eq 120 (Read w8 7 arg00))",
@@ -54896,7 +56076,9 @@
             5057
         ],
         "potential": 456,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5057": {
         "constraint": "(Eq 92 (Read w8 8 arg00))",
@@ -54910,7 +56092,9 @@
             5312
         ],
         "potential": 456,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5058": {
         "constraint": "(Eq 97 (Read w8 9 arg00))",
@@ -55133,7 +56317,9 @@
             5079
         ],
         "potential": 475,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5079": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -55144,7 +56330,9 @@
             5080
         ],
         "potential": 475,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5080": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -55155,7 +56343,9 @@
             5081
         ],
         "potential": 475,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5081": {
         "constraint": "(Eq 97 (Read w8 2 arg00))",
@@ -55166,7 +56356,9 @@
             5082
         ],
         "potential": 475,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5082": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -55177,7 +56369,9 @@
             5083
         ],
         "potential": 475,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5083": {
         "constraint": "(Eq 45 (Read w8 1 arg01))",
@@ -55188,7 +56382,9 @@
             5084
         ],
         "potential": 475,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5084": {
         "constraint": "(Eq 61 (Read w8 5 arg00))",
@@ -55199,7 +56395,9 @@
             5085
         ],
         "potential": 475,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5085": {
         "constraint": "(Eq 105 (Read w8 4 arg00))",
@@ -55211,7 +56409,9 @@
             5257
         ],
         "potential": 475,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5086": {
         "constraint": "(Eq 92 (Read w8 6 arg00))",
@@ -55222,7 +56422,9 @@
             5087
         ],
         "potential": 461,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5087": {
         "constraint": "(Eq 120 (Read w8 7 arg00))",
@@ -55233,7 +56435,9 @@
             5088
         ],
         "potential": 461,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5088": {
         "constraint": "(Eq false (Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (ZExt w64 (Read w8 8 arg00))))) const_arr1) 4096)))",
@@ -55245,7 +56449,9 @@
             5327
         ],
         "potential": 461,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5089": {
         "constraint": "(Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (Read w8 8 arg00))))) const_arr1) 2048))",
@@ -55965,7 +57171,9 @@
             5155
         ],
         "potential": 469,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5155": {
         "constraint": "(Eq 105 (Read w8 4 arg00))",
@@ -55977,7 +57185,9 @@
             5244
         ],
         "potential": 469,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5156": {
         "constraint": "(Eq 92 (Read w8 6 arg00))",
@@ -55988,7 +57198,9 @@
             5157
         ],
         "potential": 463,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5157": {
         "constraint": "(Or (Eq 55 (Read w8 7 arg00)) (Or (Eq 54 (Read w8 7 arg00)) (Or (Eq 53 (Read w8 7 arg00)) (Or (Eq 52 (Read w8 7 arg00)) (Or (Eq 51 (Read w8 7 arg00)) (Or (Eq 50 (Read w8 7 arg00)) (Or (Eq 49 (Read w8 7 arg00)) (Eq 48 (Read w8 7 arg00)))))))))",
@@ -55999,7 +57211,9 @@
             5158
         ],
         "potential": 463,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5158": {
         "constraint": "(Eq 48 (And w8 (Read w8 8 arg00) 248))",
@@ -56011,7 +57225,9 @@
             5601
         ],
         "potential": 463,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5159": {
         "constraint": "(Eq 48 (And w8 (Read w8 9 arg00) 248))",
@@ -56022,7 +57238,9 @@
             5160
         ],
         "potential": 453,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5160": {
         "constraint": "(Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (ZExt w64 (Extract w8 0 (Add w32 4294967248 (Add w32 (Shl w32 (Add w32 4294967248 (Add w32 (Shl w32 (Add w32 4294967248 (SExt w32 (Read w8 7 arg00))) 3) (SExt w32 (Read w8 8 arg00)))) 3) (SExt w32 (Read w8 9 arg00))))))))) const_arr1) 8192))",
@@ -56034,7 +57252,9 @@
             5232
         ],
         "potential": 453,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5161": {
         "constraint": "(Eq false (Eq 97 (Extract w8 0 (Add w32 4294967248 (Add w32 (Shl w32 (Add w32 4294967248 (Add w32 (Shl w32 (Add w32 4294967248 (SExt w32 (Read w8 7 arg00))) 3) (SExt w32 (Read w8 8 arg00)))) 3) (SExt w32 (Read w8 9 arg00)))))))",
@@ -56637,7 +57857,9 @@
             5216
         ],
         "potential": 1193,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5216": {
         "constraint": "(Eq 47 (Read w8 7 arg00))",
@@ -56648,7 +57870,9 @@
             5217
         ],
         "potential": 1193,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5217": {
         "constraint": "(Eq 47 (Read w8 9 arg00))",
@@ -56672,7 +57896,9 @@
             5610
         ],
         "potential": 1193,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5218": {
         "constraint": "(Eq 40 (Read w8 8 arg00))",
@@ -57829,7 +59055,9 @@
             5328
         ],
         "potential": 460,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5328": {
         "constraint": "(Eq false (Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (Read w8 9 arg00))))) const_arr1) 4096)))",
@@ -57841,7 +59069,9 @@
             5591
         ],
         "potential": 460,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5329": {
         "constraint": "(Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (Read w8 9 arg00))))) const_arr1) 2048))",
@@ -57853,7 +59083,9 @@
             5592
         ],
         "potential": 460,
-        "minset": false
+        "minset": [
+            false
+        ]
     },
     "5330": {
         "constraint": "(Eq 0 (And w16 (ReadLSB w16 (Extract w32 0 (Add w64 256 (Mul w64 2 (SExt w64 (Read w8 9 arg00))))) const_arr1) 256))",
@@ -59167,7 +60399,9 @@
             5450
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5450": {
         "constraint": "(Eq 45 (Read w8 1 arg00))",
@@ -59178,7 +60412,9 @@
             5451
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5451": {
         "constraint": "(Eq 61 (Read w8 3 arg00))",
@@ -59189,7 +60425,9 @@
             5452
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5452": {
         "constraint": "(Eq 97 (Read w8 2 arg00))",
@@ -59200,7 +60438,9 @@
             5453
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5453": {
         "constraint": "(Eq 45 (Read w8 0 arg01))",
@@ -59211,7 +60451,9 @@
             5454
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5454": {
         "constraint": "(Eq 45 (Read w8 1 arg01))",
@@ -59222,7 +60464,9 @@
             5455
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5455": {
         "constraint": "(Eq false (Eq 61 (Read w8 5 arg00)))",
@@ -59233,7 +60477,9 @@
             5456
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5456": {
         "constraint": "(Eq 61 (Read w8 6 arg00))",
@@ -59244,7 +60490,9 @@
             5457
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5457": {
         "constraint": "(Eq false (Eq 97 (Read w8 5 arg00)))",
@@ -59255,7 +60503,9 @@
             5458
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5458": {
         "constraint": "(Eq false (Eq 98 (Read w8 5 arg00)))",
@@ -59266,7 +60516,9 @@
             5459
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5459": {
         "constraint": "(Eq false (Eq 99 (Read w8 5 arg00)))",
@@ -59277,7 +60529,9 @@
             5460
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5460": {
         "constraint": "(Eq false (Eq 100 (Read w8 5 arg00)))",
@@ -59288,7 +60542,9 @@
             5461
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5461": {
         "constraint": "(Eq false (Eq 101 (Read w8 5 arg00)))",
@@ -59299,7 +60555,9 @@
             5462
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5462": {
         "constraint": "(Eq false (Eq 102 (Read w8 5 arg00)))",
@@ -59310,7 +60568,9 @@
             5463
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5463": {
         "constraint": "(Eq false (Eq 103 (Read w8 5 arg00)))",
@@ -59321,7 +60581,9 @@
             5464
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5464": {
         "constraint": "(Eq false (Eq 104 (Read w8 5 arg00)))",
@@ -59332,7 +60594,9 @@
             5465
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5465": {
         "constraint": "(Eq false (Eq 105 (Read w8 5 arg00)))",
@@ -59343,7 +60607,9 @@
             5466
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5466": {
         "constraint": "(Eq false (Eq 106 (Read w8 5 arg00)))",
@@ -59354,7 +60620,9 @@
             5467
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5467": {
         "constraint": "(Eq false (Eq 107 (Read w8 5 arg00)))",
@@ -59365,7 +60633,9 @@
             5468
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5468": {
         "constraint": "(Eq false (Eq 108 (Read w8 5 arg00)))",
@@ -59376,7 +60646,9 @@
             5469
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5469": {
         "constraint": "(Eq false (Eq 109 (Read w8 5 arg00)))",
@@ -59387,7 +60659,9 @@
             5470
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5470": {
         "constraint": "(Eq false (Eq 110 (Read w8 5 arg00)))",
@@ -59398,7 +60672,9 @@
             5471
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5471": {
         "constraint": "(Eq false (Eq 111 (Read w8 5 arg00)))",
@@ -59409,7 +60685,9 @@
             5472
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5472": {
         "constraint": "(Eq false (Eq 112 (Read w8 5 arg00)))",
@@ -59420,7 +60698,9 @@
             5473
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5473": {
         "constraint": "(Eq false (Eq 113 (Read w8 5 arg00)))",
@@ -59431,7 +60711,9 @@
             5474
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5474": {
         "constraint": "(Eq false (Eq 114 (Read w8 5 arg00)))",
@@ -59442,7 +60724,9 @@
             5475
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5475": {
         "constraint": "(Eq false (Eq 115 (Read w8 5 arg00)))",
@@ -59453,7 +60737,9 @@
             5476
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5476": {
         "constraint": "(Eq false (Eq 116 (Read w8 5 arg00)))",
@@ -59464,7 +60750,9 @@
             5477
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5477": {
         "constraint": "(Eq false (Eq 117 (Read w8 5 arg00)))",
@@ -59475,7 +60763,9 @@
             5478
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5478": {
         "constraint": "(Eq false (Eq 118 (Read w8 5 arg00)))",
@@ -59486,7 +60776,9 @@
             5479
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5479": {
         "constraint": "(Eq false (Eq 119 (Read w8 5 arg00)))",
@@ -59497,7 +60789,9 @@
             5480
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5480": {
         "constraint": "(Eq false (Eq 120 (Read w8 5 arg00)))",
@@ -59508,7 +60802,9 @@
             5481
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5481": {
         "constraint": "(Eq false (Eq 121 (Read w8 5 arg00)))",
@@ -59519,7 +60815,9 @@
             5482
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5482": {
         "constraint": "(Eq false (Eq 122 (Read w8 5 arg00)))",
@@ -59530,7 +60828,9 @@
             5483
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5483": {
         "constraint": "(Eq false (Eq 65 (Read w8 5 arg00)))",
@@ -59541,7 +60841,9 @@
             5484
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5484": {
         "constraint": "(Eq false (Eq 66 (Read w8 5 arg00)))",
@@ -59552,7 +60854,9 @@
             5485
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5485": {
         "constraint": "(Eq false (Eq 67 (Read w8 5 arg00)))",
@@ -59563,7 +60867,9 @@
             5486
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5486": {
         "constraint": "(Eq false (Eq 68 (Read w8 5 arg00)))",
@@ -59574,7 +60880,9 @@
             5487
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5487": {
         "constraint": "(Eq false (Eq 69 (Read w8 5 arg00)))",
@@ -59585,7 +60893,9 @@
             5488
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5488": {
         "constraint": "(Eq false (Eq 70 (Read w8 5 arg00)))",
@@ -59596,7 +60906,9 @@
             5489
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5489": {
         "constraint": "(Eq false (Eq 71 (Read w8 5 arg00)))",
@@ -59607,7 +60919,9 @@
             5490
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5490": {
         "constraint": "(Eq false (Eq 72 (Read w8 5 arg00)))",
@@ -59618,7 +60932,9 @@
             5491
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5491": {
         "constraint": "(Eq false (Eq 73 (Read w8 5 arg00)))",
@@ -59629,7 +60945,9 @@
             5492
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5492": {
         "constraint": "(Eq false (Eq 74 (Read w8 5 arg00)))",
@@ -59640,7 +60958,9 @@
             5493
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5493": {
         "constraint": "(Eq false (Eq 75 (Read w8 5 arg00)))",
@@ -59651,7 +60971,9 @@
             5494
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5494": {
         "constraint": "(Eq false (Eq 76 (Read w8 5 arg00)))",
@@ -59662,7 +60984,9 @@
             5495
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5495": {
         "constraint": "(Eq false (Eq 77 (Read w8 5 arg00)))",
@@ -59673,7 +60997,9 @@
             5496
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5496": {
         "constraint": "(Eq false (Eq 78 (Read w8 5 arg00)))",
@@ -59684,7 +61010,9 @@
             5497
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5497": {
         "constraint": "(Eq false (Eq 79 (Read w8 5 arg00)))",
@@ -59695,7 +61023,9 @@
             5498
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5498": {
         "constraint": "(Eq false (Eq 80 (Read w8 5 arg00)))",
@@ -59706,7 +61036,9 @@
             5499
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5499": {
         "constraint": "(Eq false (Eq 81 (Read w8 5 arg00)))",
@@ -59717,7 +61049,9 @@
             5500
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5500": {
         "constraint": "(Eq false (Eq 82 (Read w8 5 arg00)))",
@@ -59728,7 +61062,9 @@
             5501
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5501": {
         "constraint": "(Eq false (Eq 83 (Read w8 5 arg00)))",
@@ -59739,7 +61075,9 @@
             5502
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5502": {
         "constraint": "(Eq false (Eq 84 (Read w8 5 arg00)))",
@@ -59750,7 +61088,9 @@
             5503
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5503": {
         "constraint": "(Eq false (Eq 85 (Read w8 5 arg00)))",
@@ -59761,7 +61101,9 @@
             5504
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5504": {
         "constraint": "(Eq false (Eq 86 (Read w8 5 arg00)))",
@@ -59772,7 +61114,9 @@
             5505
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5505": {
         "constraint": "(Eq false (Eq 87 (Read w8 5 arg00)))",
@@ -59783,7 +61127,9 @@
             5506
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5506": {
         "constraint": "(Eq false (Eq 88 (Read w8 5 arg00)))",
@@ -59794,7 +61140,9 @@
             5507
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5507": {
         "constraint": "(Eq false (Eq 89 (Read w8 5 arg00)))",
@@ -59805,7 +61153,9 @@
             5508
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5508": {
         "constraint": "(Eq false (Eq 90 (Read w8 5 arg00)))",
@@ -59816,7 +61166,9 @@
             5509
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5509": {
         "constraint": "(Or (Eq 95 (Read w8 5 arg00)) (Ult (Add w32 4294967248 (ZExt w32 (Read w8 5 arg00))) 10))",
@@ -59827,7 +61179,9 @@
             5510
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5510": {
         "constraint": "(Eq false (Eq 58 (Read w8 5 arg00)))",
@@ -59841,7 +61195,9 @@
             5597
         ],
         "potential": 778,
-        "minset": true
+        "minset": [
+            true
+        ]
     },
     "5511": {
         "constraint": "(Eq 105 (Read w8 4 arg00))",
