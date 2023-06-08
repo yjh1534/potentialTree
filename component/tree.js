@@ -222,6 +222,11 @@ class PathconditionTree {
         }
         return this.fillColor(d);
       case "overview":
+        if(d.data.minset)
+          return "green";
+        else 
+          this.fillColor(d)
+          return 
       case "subtree":
       case "pruning":
         return this.fillColor(d)

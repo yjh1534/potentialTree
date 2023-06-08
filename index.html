@@ -165,7 +165,7 @@
             return rootNode.children[0];
         }
 
-        jsonData = d3.json('https://raw.githubusercontent.com/yjh1534/InfoVisProject/main/nodesData.json').then(data=>{
+        jsonData = d3.json('https://raw.githubusercontent.com/yjh1534/potentialTree/main/nodesData.json').then(data=>{
             treeData = jsonToTreeData(data);
             pcTree = new PathconditionTree(treeData, "#pcTree", "#sc-tooltip", "#reset-tree", "#pc-table");
         })
