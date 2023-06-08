@@ -22,7 +22,6 @@
         }
 
         .container {
-            width: 1320px;
             background: white;
         }
     </style>
@@ -36,7 +35,7 @@
             </div>
         </nav>
     </header>
-    <main class="container">
+    <main>
         <div>
             <button type="reset" id="reset-tree">Reset</button>
         </div>
@@ -89,7 +88,7 @@
         </div>
 
         <div>
-            <svg width="1310" height="900" id="pcTree">
+            <svg width="4000" height="1800" id="pcTree">
             </svg>
             <div class="tooltip bs-tooltip-top show" id="sc-tooltip" role="tooltip" style="display:none">
                 <div class="tooltip-arrow"></div>
@@ -149,6 +148,7 @@
                     both_constraint: nodeData.both_constraint,
                     large_constraint: nodeData.large_constraint,
                     potential: nodeData.potential,
+                    minset: nodeData.minset,
                 };
 
                 if (nodeData.children && nodeData.children.length > 0) {

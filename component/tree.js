@@ -222,11 +222,12 @@ class PathconditionTree {
         }
         return this.fillColor(d);
       case "overview":
-        if(d.data.minset)
+        console.log(d.data.minset)
+        if(d.data.minset==true){
           return "green";
-        else 
-          this.fillColor(d)
-          return 
+        } else { 
+          return this.fillColor(d);
+        }
       case "subtree":
       case "pruning":
         return this.fillColor(d)
@@ -301,8 +302,8 @@ class PathconditionTree {
       .data(links, d => d.target.id);
 
     const node = this.container.selectAll(".node")
-      .style("stroke", d => this.strokeColor(d))
       .style("fill", d => this.fillColor(d))
+      .style("stroke", d => this.strokeColor(d))
       .data(nodes, d => {
         return d.id || (d.id = ++this.i);
       })
